@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import axios from "axios";
+import React, { useEffect, useState } from "react";
+import './style.css'
+
 
 function App() {
+  const [value, setValue] = useState("")
+  const [data, setData] = useState("")
+
+  const handleClick = () => {
+    alert("Hello world")
+  }
+
+
+  const get_data = () => {
+    axios.get("https://jsonplaceholder.typicode.com/users")
+      .then((data) => {
+        setData(data?.data)
+      })
+  }
+
+
+  useEffect(() => {
+    get_data()
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <div className="click">
+        <input type="text" onChange={(e) => setValue(e.target.value)} />
+        <button onClick={handleClick}>onSubmit</button>
+      </div>
+
+        {/* {data.map((user) => {
+          return (
+            <>
+              <p>{user.name}</p>
+            </>
+          )
+        })} */}
+    </>
   );
 }
 
