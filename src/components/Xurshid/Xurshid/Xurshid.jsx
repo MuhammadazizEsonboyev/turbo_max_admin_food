@@ -3,8 +3,8 @@ import NavbarRouter from './NavbarRouter/NavbarRouter'
 
 export default function Xurshid() {
   return (
-    <>
-<NavbarRouter/>
-    </>
+    <div>
+        <NavbarRouter/>
+    </div>
   )
 }
