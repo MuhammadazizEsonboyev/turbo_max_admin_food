@@ -1,10 +1,10 @@
 import React from 'react'
-
+import {Container} from "react-bootstrap"
 const NavbarPage = () => {
   return (
-    <div>
-      <h1>hello navbar page</h1>
-    </div>
+    <>
+    <Container>dsnbsdh</Container>
+    </>
   )
 }
 
