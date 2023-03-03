@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function App() {
+export default function Xurshid() {
   return (
     <div>
-      <h1>Hello world</h1>
+      
     </div>
   )
 }
