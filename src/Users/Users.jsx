@@ -1,20 +1,18 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import General from '../components/Asadbek/Asadbek'
 
 export default function Users() {
     return (
-        <div>
-            {/* <General/> */}
+        <div style={{display: "flex", justifyContent: "center", marginTop: "100px", gap: "20px"}}>
+
             <Link to="/asadbek">
-                <button>Asad</button>
+                <Button variant="success">Asadbek</Button>
             </Link>
-            <button>Behruz</button>
-            <button>Xurshid</button>
-            <button>Sanjar</button>
-            <button>Doston</button>
-            <button>Samandar</button>
-            <button>Abdumurod</button>
+            <Link to="/doston">
+                <Button variant="success">Doston</Button>
+            </Link>
         </div>
     )
 }
