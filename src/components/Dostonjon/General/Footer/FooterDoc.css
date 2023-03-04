@@ -1,0 +1,38 @@
+.boder{
+    display: flex;
+    justify-content: end;
+    margin-top: 230px;
+}
+.ioo{
+margin-top: 210px;
+}
+.tell{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 40px;
+}
+.pava{
+    top: calc(50% - 26px/2 + 1736px);
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #666666;
+mix-blend-mode: normal;
+}
+.otalist{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lista{
+    display: flex;
+    list-style: none;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #42446E;
+}
