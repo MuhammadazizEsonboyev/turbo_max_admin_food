@@ -28,12 +28,12 @@ const Section = () => {
                         <h5 className='think'> Things I’ve built so far</h5>
                     </Col>
                 </Row >
-                <Row style={{display:'flex'}}>
-                            {user?.map((data) => {
-                                return (
-                                    <>
-                    <Col  xs={4}>
-                        <div className="box" key={data.id}>
+                <Row style={{ display: 'flex' }}>
+                    {user?.map((data) => {
+                        return (
+                            <>
+                                <Col xs={4}>
+                                    <div className="box" key={data.id}>
                                         <img src={cardimg} alt="" />
                                         <h2 className='cardTile'>{data.name} </h2>
                                         <p className='this'>This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
@@ -41,18 +41,22 @@ const Section = () => {
                                         <div className="links">
                                             <div className="link">
                                                 <LinkIcon />
-                                                <h2 className='live'>Live Preview</h2>
+                                                <a href="https://github.com/MuhammadazizEsonboyev/turbo_max_admin_food">
+                                                    <h2 className='live'>Live Preview</h2>
+                                                </a>
                                             </div>
                                             <div className="link">
+                                                <a href="https://github.com/qodirovshohijahon">
                                                 <GitHubIcon />
+                                                </a>
                                                 <h2 className='live'>View Code</h2>
                                             </div>
                                         </div>
-                        </div>
-                    </Col>
-                    </>
-                )
-            })}
+                                    </div>
+                                </Col>
+                            </>
+                        )
+                    })}
                 </Row>
             </Container>
         </>

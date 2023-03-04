@@ -28,7 +28,7 @@ const NavbarPage = () => {
                             <a href="https://github.com/QodirovDoston">
                             <GitHubIcon style={{color:'black', fontSize:'35px'}} />
                             </a>
-                            <a href="https://www.instagram.com/qodirovdoston806//">
+                            <a href="https://www.instagram.com/qodirovdoston806/">
                             <InstagramIcon style={{color:'black', fontSize:'35px'}} />
                             </a>
                             <a href='https://twitter.com/'>
