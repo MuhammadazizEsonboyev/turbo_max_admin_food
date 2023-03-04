@@ -25,14 +25,18 @@ const NavbarPage = () => {
                     </Col>
                     <Col xs={2}>
                         <div className="icons">
-                            <GitHubIcon style={{ fontSize:'35px'}} />
-                            <InstagramIcon style={{ fontSize:'35px'}} />
-                            <TwitterIcon style={{ fontSize:'35px'}} />
+                            <a href="https://github.com/QodirovDoston">
+                            <GitHubIcon style={{color:'black', fontSize:'35px'}} />
+                            </a>
+                            <a href="https://www.instagram.com/qodirovdoston806//">
+                            <InstagramIcon style={{color:'black', fontSize:'35px'}} />
+                            </a>
+                            <a href='https://twitter.com/'>
+                            <TwitterIcon style={{ color:'black', fontSize:'35px'}} />
+                            </a>
                         </div>
                     </Col>
                 </Row>
-
-               
             </Container>
         </>
     )
