@@ -1,0 +1,29 @@
+.section1_tech{
+    margin-top: 300px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+
+align-items: center;
+text-align: center;
+
+color: #42446E;
+}
+
+.section1_p{
+    margin-top: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+
+align-items: center;
+text-align: center;
+color: #666666;
+
+
+
+}

@@ -1,0 +1,31 @@
+nav{
+    background: black;
+    color: white;
+}
+
+.navbar_ul{
+    font-family: 'DM Sans';
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+  
+  
+    /* identical to box height, or 130% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #666666;
+    
+}
+
+.navbar_icon i{
+    color: white;
+    background: black;
+    border-radius: 50%;
+    margin-left: 20px;
+    
+}

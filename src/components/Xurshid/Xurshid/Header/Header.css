@@ -1,0 +1,23 @@
+.header_1{
+    margin-top: 200px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 70px;
+/* or 121% */
+
+display: flex;
+align-items: center;
+letter-spacing: -1px;
+
+/* Solid Heading */
+
+color: #42446E;
+
+}
+
+.img1{
+    margin-top: 150px;
+    margin-left:  200px;
+}
