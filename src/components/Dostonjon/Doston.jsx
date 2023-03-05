@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import NavbarPage from './General/Navbar/NavbarPage'
 
 const ToplamApp = () => {
-    const [doston ,SetDoston]=useState('')
     
   return (
     <>

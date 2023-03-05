@@ -1,0 +1,27 @@
+ export const LinksStorage = [
+    {
+        title:"Home",
+        to:"/",
+        id:1
+    },
+    {
+        title:"About",
+        to:"/about",
+        id:2
+    },
+    {
+        title:"TechStack",
+        to:"/tech",
+        id:3
+    },
+    {
+        title:"Projects",
+        to:"/projects",
+        id:4
+    },
+    {
+        title:"Contact",
+        to:"/contact",
+        id:5
+    },
+]

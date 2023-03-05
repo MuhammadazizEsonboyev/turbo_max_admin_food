@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+// import General from '../components/Asadbek/Asadbek'
 
 export default function Users() {
     return (
