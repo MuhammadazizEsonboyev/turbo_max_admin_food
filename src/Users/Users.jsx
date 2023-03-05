@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import General from '../components/Asadbek/Asadbek'
+// import General from '../components/Asadbek/Asadbek'
 
 export default function Users() {
     return (

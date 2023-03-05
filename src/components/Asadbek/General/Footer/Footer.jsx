@@ -1,42 +1,36 @@
 import React from 'react'
-import { Container, Col,  Navbar, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import { LinksStorage } from '../../LinksStorage.jsx'
-import "././NavBarPage.css"
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import { Col, Container, Row } from 'react-bootstrap'
+// import { Link } from 'react-router-dom'
+import "././Footer.css"
 const GitHubLogo = require('../../img/Vector (11).png')
 const Insta = require('../../img/Vector (10).png')
 const logo = require('../../img/logo 1.png')
 const youtube = require("../../img/Vector (9).png")
 
-export default function NavBarPage() {
+
+
+export default function Footer() {
   return (
     <>
-
-
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Container>
+    <Container>
           <Row className='justify-content-between mb-1'>
             <Col xs={3}>
               <div className="LogoBox">
                 <img src={logo} alt="" />
               </div>
             </Col>
-                <Col xs={6}>
-                  <div  className='linkBox' style={{marginLeft:"60px"}} >
-                  {
-                    LinksStorage.map((val) => {
-                      return (
-                        <li style={{ listStyle: "none" , marginTop:"10px"}}>
-                          <Link style={{ color: "white", textDecoration: "none", marginBottom: "100px", paddingLeft: "80px" }}>
-                            {val.title}
-                          </Link>
-                        </li>
-                      )
-                    })
-                  }
+                <Col xs={2}>
+                  <div  className='PhoneBox' style={{marginLeft:"60px"}} >
+                    <h6 className='Phone'>+998903301092</h6>
                   </div>
                 </Col>
+
+                <Col xs={2}>
+                  <div className='EmailBox'>
+                    <h6 className='email'>umirzakovasad83@gmail.com</h6>
+                  </div>
+                </Col>
+
                 <Col xs={3}>
                   <div className='Icons-Box' style={{margin:"5px 0px 0px 80px"}}>
                     <a href="https://github.com/Asadbecck">
@@ -51,10 +45,19 @@ export default function NavBarPage() {
                   </div>
                 </Col>
           </Row>
+           <Row className='justify-content-center'>
+            <Col xs={11}>
+                <div style={{borderBottom:"2px solid black", margin:"50px 0px 40px 0px"}}></div>
+            </Col>
+           </Row>
+           
+
+
+
+           <Row>
+
+           </Row>
         </Container>
-      </Navbar>
-
-
     </>
   )
 }
