@@ -46,7 +46,7 @@ export default function Footer() {
                 </Col>
           </Row>
            <Row className='justify-content-center'>
-            <Col xs={11}>
+            <Col xs={11 }>
                 <div style={{borderBottom:"2px solid black", margin:"50px 0px 40px 0px"}}></div>
             </Col>
            </Row>
