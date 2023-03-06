@@ -1,0 +1,90 @@
+.section2_h1{
+    margin-top: 200px;
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+color: #42446E;
+}
+
+.section2_p{
+    margin-top: 50px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+color: #666666;
+}
+
+
+
+
+.section2{
+    margin-top: 20px;
+    
+}
+
+.section2h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.section2p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+align-items: center;
+color: #666666;
+}
+
+.section2p_1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #42446E;
+}
+
+.h1{
+    display: flex;
+    gap: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+.github{
+    display: flex;
+}
+
+.link{
+    display: flex;
+}

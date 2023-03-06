@@ -1,0 +1,14 @@
+footer{
+    margin-top: 200px;
+}
+
+.footer{
+    display: flex;
+    gap: 20px;
+}
+
+
+.footer2{
+    display: flex;
+    gap: 20px;
+}

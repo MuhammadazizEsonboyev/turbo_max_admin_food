@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Nav, Row } from 'react-bootstrap'
 import"./Navbar.css"
 
+
 const xurshid1 = require("../img/007.png")
 
 export default function NavbarRouter() {
@@ -36,9 +37,9 @@ export default function NavbarRouter() {
  
  
       
-<i class="fa-brands fa-github"></i>
-<i class="fa-brands fa-google"></i>
-<i class="fa-brands fa-telegram"></i>
+<a href="https://codesandbox.io/s/github/salman1204/CRUD_React/tree/main/"><i  className="fa-brands fa-github"></i></a>
+<i href="" className="fa-brands fa-google"></i>
+<i className="fa-brands fa-telegram"></i>
         </div>
       </Col>
     </Row>
