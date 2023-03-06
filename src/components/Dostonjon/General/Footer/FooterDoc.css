@@ -1,0 +1,59 @@
+.boder{
+    display: flex;
+    justify-content: end;
+    margin-top: 230px;
+}
+.icons{
+gap: 30px;
+padding-left: 30px;
+}
+.boder{
+    margin-right: -300px;
+}
+.ioo{
+margin-top: 210px;
+}
+.tell{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    gap: 40px;
+ margin-top: 14px;
+}
+.pava{
+    top: calc(50% - 26px/2 + 1736px);
+font-family: 'Poppins';
+font-weight: 900;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #666666;
+mix-blend-mode: normal;
+margin-right: -280px;
+}
+.pava span{
+    color: #095e82;
+}
+.otalist{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -99px;
+}
+.lista{
+    display: flex;
+    list-style: none;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+color: #42446E;
+}
+.email{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #42446E;
+}
