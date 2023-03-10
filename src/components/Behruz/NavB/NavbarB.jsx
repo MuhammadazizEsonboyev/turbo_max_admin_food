@@ -1,4 +1,5 @@
 import React from 'react'
+import "./navb.css"
 import { Col, Container, Row } from 'react-bootstrap'
 
 export default function NavbarB() {

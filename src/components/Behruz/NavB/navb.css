@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.list{
+    display: flex;
+   list-style: none;
+   margin-left: 800px;
+    margin-top: 50px;
+}
+
+
+.list_item{
+    padding-left: 40px;
+}
