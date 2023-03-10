@@ -1,0 +1,87 @@
+.project {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    margin-top: 70px;
+    margin-left: 240px;
+    display: flex;
+    color: #42446E;
+}
+
+.think {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    margin: 50px 0px 60px 170px;
+    display: flex;
+    color: #666666;
+}
+
+.box {
+    width: 373px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.link {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    margin: 12px 31px 24px 28px;
+    gap: 40px;
+}
+
+.live {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-left: 10px;
+
+}
+
+.cardTile {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin: 27px 44px 17px 28px;
+}
+
+.this {
+    font-weight: 300;
+    margin: 17px 34px 12px 28px;
+    font-size: 18px;
+    line-height: 26px;
+    align-items: center;
+    color: #666666;
+}
+
+.tech {
+    margin: 12px 31px 24px 28px;
+    width: 314px;
+    height: 26px;
+    left: 223px;
+    top: 2445px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #42446E;
+}
+
+#doston {
+    display: flex !important;
+    display: grid;
+}
