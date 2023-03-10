@@ -1,17 +1,26 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 
 const NavbarS = () => {
   return (
     <>
       <Container>
         <Row>
-          <Col xs={3}>
-            <ul className="list">
-              <li className="list_item">Works</li>
-              <li className="list_item">Blog</li>
-              <li className="list_item">Contact</li>
-            </ul>
+          <Col xs={12}>
+          <Navbar bg="light" expand="lg">
+      <Container>
+       
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto" >
+            <Nav.Link href="#home">Works</Nav.Link>
+            <Nav.Link href="#link">Blog</Nav.Link>
+            <Nav.Link href="#link">Contact</Nav.Link>
+           
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
           </Col>
         </Row>
       </Container>
