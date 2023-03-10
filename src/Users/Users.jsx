@@ -10,6 +10,9 @@ export default function Users() {
         <Link to="/asadbek">
             <button>Asadbek</button>
         </Link>
+        <Link to="/samandar">
+            <button>Samandar</button>
+        </Link>
     </div>
   )
 }
