@@ -1,11 +1,11 @@
 import React from 'react'
 
-const FooterD = () => {
+const NavD = () => {
   return (
     <div>
-        footer
+      Nav
     </div>
   )
 }
 
-export default FooterD
+export default NavD
