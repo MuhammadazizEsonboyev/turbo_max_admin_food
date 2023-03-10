@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.one{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.des{
+    margin-top: -240px;
+    margin-left: 300px;
+}
+
+.dash{
+    color: #8695A4;
+    margin-left: 400px;
+}
+
+.veli{
+    padding-left: 300px;
+}
+
+.hr{
+    margin-top: 50px;
+    margin-left: 150px;
+}
