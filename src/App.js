@@ -12,9 +12,12 @@ export default function App() {
 
   return (
     <>
+<<<<<<< HEAD
 
     
 
+=======
+>>>>>>> 32d19361d10dcf7282c6d657d6c51777f10d28ab
         <Router>
           <Routes>
             <Route path='/' element={<Users/>}/>
