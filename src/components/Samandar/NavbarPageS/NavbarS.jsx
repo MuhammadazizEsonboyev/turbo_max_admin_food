@@ -1,17 +1,29 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Form, Nav, Navbar, Row } from 'react-bootstrap'
 
 const NavbarS = () => {
   return (
     <>
       <Container>
         <Row>
-          <Col xs={3}>
-            <ul className="list">
-              <li className="list_item">Works</li>
-              <li className="list_item">Blog</li>
-              <li className="list_item">Contact</li>
-            </ul>
+          <Col xs={10}>
+          <Navbar bg="light" expand="lg">
+      <Container>
+       
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto" >
+          
+           
+          </Nav>
+          <Form className="d-flex" style={{gap:"30px"}}>
+          <Nav.Link href="#home">Works</Nav.Link>
+            <Nav.Link href="#link">Blog</Nav.Link>
+            <Nav.Link href="#link">Contact</Nav.Link>
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
           </Col>
         </Row>
       </Container>

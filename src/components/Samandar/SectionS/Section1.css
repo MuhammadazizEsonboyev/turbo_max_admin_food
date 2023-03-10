@@ -1,0 +1,55 @@
+section{
+    background: #EDF7FA;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.Card{
+    margin-top: 10px;
+background-color: white;
+width: 450px;
+}
+.section_text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+}
+
+.data{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-left: 20px;
+}
+
+.P_Text{
+padding-bottom: 30px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+margin-left: 20px;
+
+}
+
+.recent{
+  padding-top: 15px; 
+  padding-bottom: 20px;
+}
+
+.line{
+    border-left: 1px solid black;
+    margin-left: 15px;
+    height: 30px;
+}
