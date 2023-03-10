@@ -8,11 +8,12 @@ import Users from './Users/Users'
 
 export default function App() {
 
-
-
-
   return (
     <>
+
+    
+      <h1>Hello world</h1>
+
         <Router>
           <Routes>
             <Route path='/' element={<Users/>}/>
@@ -22,6 +23,7 @@ export default function App() {
             <Route path='/doston-sila' element={<Qodirov/>}/>
           </Routes>
         </Router>
+
     </>
   )
 }
