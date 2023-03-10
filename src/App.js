@@ -5,6 +5,7 @@ import Behruz from './components/Behruz/Behruz'
 import Muhammadaziz from './components/Muhammadaziz/Muhammadaziz'
 import Qodirov from './components/QodirovDoston/Qodirov'
 import Samandar from './components/Samandar/Samandar'
+import Xurshid from './components/Xurshid/Xurshid'
 import Users from './Users/Users'
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
             <Route path='/samandar' element={<Samandar/>}/>
             <Route path='/doston-sila' element={<Qodirov/>}/>
             <Route path='/behruz-axi' element={<Behruz/>}/>
+            <Route path='/xurshid-sila' element={<Xurshid/>}/>
           </Routes>
         </Router>
 
