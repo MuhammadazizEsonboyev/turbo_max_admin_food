@@ -53,3 +53,47 @@ margin-left: 20px;
     margin-left: 15px;
     height: 30px;
 }
+
+
+
+
+@media(max-width:575px){
+    section {
+        background: #EDF7FA;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .recent {
+        padding-top: 5px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+    .Card {
+        margin-top: 0px;
+        background-color: white;
+        width: 340px;
+    }
+
+    .section_text {
+        padding-top: 8px;
+        padding-bottom: 5px;
+        margin-left: 20px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 27px;
+        color: #21243D;
+    }
+    .P_Text {
+        padding-bottom: 17px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #21243D;
+        margin-left: 0px;
+        text-align: center;
+    }
+}

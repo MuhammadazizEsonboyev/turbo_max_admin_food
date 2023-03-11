@@ -11,7 +11,7 @@ const FooterS = () => {
     <>
     <Container>
       <Row className="justify-content-center">
-        <Col xs={3}>
+        <Col xs={7} lg={3}>
        <div className="FooterBox">
        <div className="iconBox">
           <img src={icon1} alt="" className="iconImg" />
