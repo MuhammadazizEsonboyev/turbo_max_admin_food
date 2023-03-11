@@ -17,6 +17,9 @@ export default function Users() {
             <Link to="/behruz">
                 <Button variant="success">Behruz</Button>
             </Link>
+            <Link to="/bobur">
+                <Button variant="success">Bobur</Button>
+            </Link>
         </div>
     )
 }
