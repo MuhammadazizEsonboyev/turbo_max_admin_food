@@ -1,0 +1,43 @@
+.hi {
+  margin-top: 150px;
+}
+.myName {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 47px;
+  align-items: center;
+  letter-spacing: -1px;
+  color: #42446e;
+}
+span {
+  color: rgb(72, 205, 250);
+}
+.img1 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.my {
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  align-items: center;
+  text-align: center;
+  color: #42446e;
+}
+
+.teach {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  align-items: center;
+  text-align: center;
+  color: #666666;
+}
+.list_item{
+    padding-left: 220px;
+}
