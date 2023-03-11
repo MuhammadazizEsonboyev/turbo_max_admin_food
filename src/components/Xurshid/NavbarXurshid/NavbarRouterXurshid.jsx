@@ -1,24 +1,11 @@
+
+
 import React from 'react'
 import { Col, Container, Nav, Row } from 'react-bootstrap'
 import "./navbarXurshid.css"
 
 export default function NavbarRouter() {
-  const Xurshid = [
-    {
-      
-    li : "Works"
-    },
 
-    {
-      li : "Blog"
-      },
-
-      {
-        li : "Contact"
-      }
-
-
-  ]
   return (
 
 
@@ -28,19 +15,37 @@ export default function NavbarRouter() {
       <Row>
 
 
-        <Col xs={9}>
+        <Col xs={8}>
 
         </Col>
         <Col xs={3}>
        <div className="navbar">
-      {Xurshid.map(({li}) => (
+
+
+
+
+       <Nav.Item>
+
+</Nav.Item>
+    
 
 <Nav.Item>
-<Nav.Link>{li}</Nav.Link>
+<Nav.Link>Works</Nav.Link>
 </Nav.Item>
  
 
-))}
+<Nav.Item>
+<Nav.Link>Blog</Nav.Link>
+</Nav.Item>
+ 
+
+
+<Nav.Item>
+<Nav.Link>Contact</Nav.Link>
+</Nav.Item>
+ 
+
+
 
        </div>
         </Col>
@@ -51,3 +56,59 @@ export default function NavbarRouter() {
 }
 
 
+
+
+// import React from 'react'
+// import { Col, Container, Nav, Row } from 'react-bootstrap'
+// import "./navbarXurshid.css"
+
+// export default function NavbarRouter() {
+//   const Xurshid = [
+//     {
+      
+//     li : "Works",
+//     href : "https://www.w3schools.com/html/"
+//     },
+
+//     {
+//       li : "Blog",
+//       href : "https://www.w3schools.com/css/"
+//       },
+
+//       {
+//         li : "Contact",
+//         href : "https://www.w3schools.com/js/"
+//       }
+
+
+//   ]
+//   return (
+
+
+
+//     <>
+//     <Container>
+//       <Row>
+
+
+//         <Col xs={9}>
+
+//         </Col>
+//         <Col xs={3}>
+//        <div className="navbar">
+//       {Xurshid.map(({li,href}) => (
+
+// <Nav.Item>
+// <Nav.Link  href={href}>{li}</Nav.Link>
+// </Nav.Item>
+ 
+
+// ))}
+
+//        </div>
+//         </Col>
+//       </Row>
+//     </Container>
+//     </>
+//   )
+// }
