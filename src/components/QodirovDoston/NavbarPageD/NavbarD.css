@@ -1,0 +1,33 @@
+.my_img{
+    border-radius:  0% 50% 0 50%;
+    padding: 90px 30px 0px 0px;
+    width: 500px;
+}
+
+.navbar_content >h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-top: 228px;
+}
+.navbar_content >p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    
+}
+.navbar_content > button{
+    width: 208px;
+    height: 47px;
+    left: 148px;
+    top: 477px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+}

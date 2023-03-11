@@ -13,7 +13,7 @@ export default function Users() {
         <Link to="/samandar">
             <button>Samandar</button>
         </Link>
-        <Link to="/doston-sila">
+        <Link to="/doston">
             <button>Doston</button>
         </Link>
         <Link to="/behruz-axi">
