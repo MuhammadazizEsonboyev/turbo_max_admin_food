@@ -6,7 +6,7 @@ const NavbarS = () => {
     <>
       <Container>
         <Row>
-          <Col xs={10}>
+          <Col xs={10} >
           <Navbar bg="light" expand="lg">
       <Container>
        
