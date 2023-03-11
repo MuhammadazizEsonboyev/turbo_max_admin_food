@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.icons{
+display: flex;
+margin-left: 500px;
+
+}
+
+.olti{
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 50px;
+}

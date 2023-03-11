@@ -22,7 +22,7 @@ export default function NavbarB() {
                 <Row>
                     <Col xs={6}>
                         <h1 className='hbir'>
-                            Hi, I am John,<br></br>
+                            Hi, I am Bekhruz,<br></br>
                             Creative Technologist
                         </h1>
 
