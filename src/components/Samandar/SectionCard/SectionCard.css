@@ -1,0 +1,53 @@
+.CardBox{
+display: flex;
+gap: 20px;
+}
+
+.CardName{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.miniBox{
+display: flex;
+gap: 20px;
+padding-bottom: 10px;
+}
+
+.dataName{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    background: #142850;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.miniName{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.CardText{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+hr{
+    padding-bottom: 20px;
+}
