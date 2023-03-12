@@ -1,14 +1,15 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import "../NavD/NavD.css"
-import project1 from '../Images/projctScreenshot from 2023-03-12 18-26-381.png'
-import project2 from '../Images/projctScreenshot from 2023-03-12 18-27-022.png'
+import project1 from '../Images/projctScreenshot from 2023-03-12 18-27-374.png'
+import project2 from '../Images/projctScreenshot from 2023-03-12 18-27-374.png'
 import project3 from '../Images/projctScreenshot from 2023-03-12 18-27-273.png'
 import project4 from '../Images/projctScreenshot from 2023-03-12 18-27-374.png'
 import project5 from '../Images/projctScreenshot from 2023-03-12 18-27-495.png'
-import project6 from '../Images/projctScreenshot from 2023-03-12 18-28-056.png'
-import project7 from '../Images/projctScreenshot from 2023-03-12 18-28-578.png'
-import project8 from '../Images/projctScreenshot from 2023-03-12 18-29-309.png'
+import project6 from '../Images/projctScreenshot from 2023-03-12 18-27-495.png'
+import project7 from '../Images/projctScreenshot from 2023-03-12 18-27-495.png'
+import project8 from '../Images/projctScreenshot from 2023-03-12 18-27-495.png'
+
 
 const data = [
   {
