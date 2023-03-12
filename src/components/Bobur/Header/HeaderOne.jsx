@@ -1,6 +1,9 @@
 import React from "react";
 import { names } from "../DynamicNav";
 import "..//Bobur.css";
+import { images } from "../DynamicImg";
+import { cart } from "../DynamicCard";
+import { Link } from "react-router-dom";
 const imgLogo = require("..//Img/logo 1.png");
 const imgGithub = require("..//Img/Group 1.png");
 function HeaderOne() {
@@ -17,7 +20,7 @@ function HeaderOne() {
   return (
     <section>
       <div className="container">
-        <div className="row justify-content-between mt-5">
+        <div className="row justify-content-between mt-1">
           <div className="col-3">
             <img src={imgLogo} alt="" />
           </div>
@@ -64,6 +67,46 @@ function HeaderOne() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row justify-content-between">
+          {images.map((item) => (
+            <div className="col-2">
+              <img className="images" src={item.img} alt="" />
+            </div>
+          ))}
+        </div>
+        <div className="row justify-content-center">
+          <div className="col-4">
+            <h1 className="project" style={{ textAlign: "center" }}>
+              Projects
+            </h1>
+            <p className="thing" style={{ textAlign: "center" }}>
+              Things I’ve built so far
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="row">
+          {cart.map((items) => (
+            <div className="col-3">
+              <div style={{width:"250px", height:"500px", marginBottom:"60px"}} class="card">
+                <img style={{width:"250px",height:"200px"}} src={items.img} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">{items.title}</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolores facere iusto optio quidem qui impedit, ipsam saepe. At, beatae molestiae nam porro a adipisci nostrum neque consequatur fugiat esse.
+                  </p>
+                  <Link to={items.see}>Github</Link> 
+                  <Link to={items.view}>View</Link> 
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
