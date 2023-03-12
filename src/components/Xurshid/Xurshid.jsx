@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterXurshid from './FooterXurshid/FooterXurshid'
 import HeaderXurshid from './HeaderXurshid/HeaderXurshid'
 import NavbarRouter from './NavbarXurshid/NavbarRouterXurshid'
 import Section1Xurshid from './Section1Xurshid/Section1Xurshid'
@@ -11,6 +12,7 @@ export default function Xurshid() {
       <HeaderXurshid/>
       <Section1Xurshid/>
       <Section2Xurshid/>
+      <FooterXurshid/>
     </>
   )
 }

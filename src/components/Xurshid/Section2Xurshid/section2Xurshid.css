@@ -24,3 +24,11 @@ line-height: 44px;
 color: #21243D;
 text-align:left;
 }
+
+.section2_img{
+    background: blue;
+}
+
+.section2_div{
+    display: flex;
+}

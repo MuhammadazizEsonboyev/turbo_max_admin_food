@@ -1,0 +1,25 @@
+
+
+.footer_1{
+    margin-top: 160px;
+    text-align: center;
+    gap: 200px;
+    font-size: 30px;
+}
+
+.footer_h3{
+    
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark */
+margin-top: 20px;
+color: #21243D;
+
+}
