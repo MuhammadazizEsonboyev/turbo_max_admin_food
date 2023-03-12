@@ -27,6 +27,7 @@ span {
   align-items: center;
   text-align: center;
   color: #42446e;
+  padding-top: 300px;
 }
 
 .teach {
@@ -37,7 +38,32 @@ span {
   align-items: center;
   text-align: center;
   color: #666666;
+  padding-bottom: 140px;
 }
-.list_item{
-    padding-left: 220px;
+.list_item {
+  padding-left: 220px;
+}
+.images {
+  width: 90px;
+  height: 105px;
+  margin-bottom: 200px;
+}
+.project {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  align-items: center;
+  text-align: center;
+  color: #42446e;
+}
+.thing {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  align-items: center;
+  text-align: center;
+  color: #666666;
+  padding-bottom: 95px;
 }
