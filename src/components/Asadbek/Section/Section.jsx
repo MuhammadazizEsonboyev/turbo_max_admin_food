@@ -6,7 +6,9 @@ export default function Section() {
   return (
     <>
     <Container>
+        <div id='for-responsive'>
 
+        
         <Row>
             <h3 className='works'>Featured works</h3>
         <Col xs={12}>
@@ -28,6 +30,7 @@ export default function Section() {
         </div>
         </div>
         </Col>
+        <hr />
         <Col xs={12}>
         <div className='df-card'>
         <div className='img-box'></div>
@@ -46,6 +49,7 @@ export default function Section() {
          nostrud amet.</p>
         </div>
         </div>
+        <hr />
         </Col>
         <Col xs={12}>
         <div className='df-card'>
@@ -65,8 +69,10 @@ export default function Section() {
          nostrud amet.</p>
         </div>
         </div>
+        <hr />
         </Col>
         </Row>
+        </div>
     </Container>
     </>
   )

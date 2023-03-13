@@ -5,7 +5,7 @@
  }
 
  .img-box {
-     width: 300px;
+     width: 290px;
      height: 180px;
      background-image: url("https://img.freepik.com/free-vector/gradient-stock-market-concept_23-2149166910.jpg");
      border-radius: 6px;
@@ -13,7 +13,7 @@
  }
 
  .works {
-    margin-left: 150px;
+     margin-left: 150px;
      font-weight: 500;
      font-size: 22px;
      line-height: 60px;
@@ -70,3 +70,10 @@
      color: #21243D;
      margin: 10px 0px 0px 20px;
  }
+
+ @media only screen  and (max-width:"576"){
+    #for-responsive{
+        display: grid;
+        flex-wrap: wrap;
+    }
+}
