@@ -15,7 +15,7 @@ export default function NavbarRouter() {
       <Row>
 
 
-        <Col xs={8}>
+        <Col xs={9}>
 
         </Col>
         <Col xs={3}>

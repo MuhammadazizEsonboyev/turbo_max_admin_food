@@ -28,10 +28,14 @@ text-align: right;
 color: #00A8CC;
 }
 
+.section1_p2{
+    margin-left: 75px;
+}
+
 .box{
     background: rgb(186, 186, 186);
-    width: 420px;
-    height: 295px;
+    width: 520px;
+    height: 215px;
     border-radius: 4px;
 }
 
@@ -44,6 +48,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 38px;
 color: #21243D;
+text-align: center;
 
 }
 

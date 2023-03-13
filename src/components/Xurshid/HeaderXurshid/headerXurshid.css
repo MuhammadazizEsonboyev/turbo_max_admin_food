@@ -45,6 +45,10 @@ margin-top: 30px;
     margin-left: 106px;
 }
 
+.header_xurshid{
+    margin-left: 200px;
+}
+
 
 
 @media (max-width:575px) {
@@ -65,5 +69,9 @@ margin-top: 30px;
     .header_button{
         text-align: center;
         margin-left: 100px;
+    }
+
+    .header_xurshid{
+        margin-left: -35px;
     }
 }

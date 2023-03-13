@@ -8,8 +8,8 @@ export default function HeaderXurshid() {
     <>
       <Container>
         <Row>
-          <Col ls={10}>
-            <Col xs={8}>
+          <Col>
+            <Col xs={9}>
               <div className="header">
                 <h1 className="header_h1">
                   Hi, I am John, <br />
@@ -27,10 +27,10 @@ export default function HeaderXurshid() {
             </Col>
           </Col>
 
-          <Col ls={10}>
-            <Col xs={4}>
+          <Col>
+            <Col xs={3}>
               <div className="header_1">
-                <img src={avatar} alt="" />
+                <img className="header_xurshid" src={avatar} alt="" />
               </div>
             </Col>
           </Col>

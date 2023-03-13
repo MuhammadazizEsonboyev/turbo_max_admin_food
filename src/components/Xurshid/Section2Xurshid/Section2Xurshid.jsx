@@ -39,9 +39,9 @@ export default function Section2Xurshid() {
        </Col>
 
           <Col xs={8}>
-            <h1 className="section2_h1">Designing Dashboards</h1>
+            <h1 className="section2_h1">Vibrant Portraits of 2020</h1>
             <div className="section2_div">
-              <p className="section2_p2">Dashboard</p>
+              <p className="section2_p2">Illustration</p>
             </div>
             <p className="section2_p">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -58,9 +58,9 @@ export default function Section2Xurshid() {
        </Col>
 
           <Col xs={8}>
-            <h1 className="section2_h1">Designing Dashboards</h1>
+            <h1 className="section2_h1">36 Days of Malayalam type</h1>
             <div className="section2_div">
-              <p className="section2_p2">Dashboard</p>
+              <p className="section2_p2">Typography</p>
             </div>
             <p className="section2_p">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
