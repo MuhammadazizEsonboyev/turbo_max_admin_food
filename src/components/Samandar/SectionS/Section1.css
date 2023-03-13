@@ -1,8 +1,6 @@
-/* .sction2{
+ .sction2{
     background: #EDF7FA;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-} */
+}
 
 .Card{
     margin-top: 10px;
@@ -60,9 +58,7 @@ margin-left: 20px;
 @media(max-width:575px){
     .sction2 {
         background: #EDF7FA;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
+  }
     .recent {
         padding-top: 5px;
         padding-bottom: 2px;
