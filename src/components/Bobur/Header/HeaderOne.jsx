@@ -91,15 +91,16 @@ function HeaderOne() {
       </div>
 
       <div className="container">
-        <div className="row">
+        <div style={{marginLeft:"200px"}} className="bigBox">
+        <div className="row justify-content-end">
           {cart.map((items) => (
             <div className="col-4">
-              <div style={{width:"250px", height:"500px", marginBottom:"60px"}} class="card">
-                <img style={{width:"250px",height:"200px"}} src={items.img} class="card-img-top" alt="..." />
+              <div style={{width:"350px", height:"500px", marginBottom:"60px"}} class="card">
+                <img style={{width:"300px",height:"150px"}} src={items.img} class="card-img" alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">{items.title}</h5>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolores facere iusto optio quidem qui impedit, ipsam saepe. At, beatae molestiae nam porro a adipisci nostrum neque consequatur fugiat esse.
+                    Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Nulla dolores facere iusto optio <br /> quidem qui impedit, ipsam saepe. <br /> At, beatae molestiae nam porro a adipisci <br /> nostrum neque consequatur fugiat esse.
                   </p>
                   <Link to={items.see}>Github</Link> 
                   <Link to={items.view}>View</Link> 
@@ -107,6 +108,7 @@ function HeaderOne() {
               </div>
             </div>
           ))}
+        </div>
         </div>
       </div>
 
