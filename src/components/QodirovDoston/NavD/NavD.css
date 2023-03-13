@@ -1,11 +1,13 @@
+.dash1{
+    margin-bottom: -40px ;
+    text-decoration: none;
+}
 .imgfed{
     width: 400px;
     height: 300px;
     border-radius: 10px;
 }
-.ikita{
-    display: flex;
-}
+
 .btn{
 width: 92px;
 height: 15px;
