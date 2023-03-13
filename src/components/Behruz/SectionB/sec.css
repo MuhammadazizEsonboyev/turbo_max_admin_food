@@ -8,17 +8,13 @@
     background: #EDF7FA;
     margin-top: 130px;
     margin-bottom: 50px;
+
 }
 
-.card{
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: 60px;
-}
 
-.cad{
-    margin-top: 40px;
-    margin-left: 60px;
+
+.gado{
+    margin-left: 200px;
     margin-bottom: 50px;
 }
 
@@ -27,6 +23,11 @@
     margin-left: 400px;
 }
 
-.pos{
-    margin-left: 70px;
+/* .pos{
+    margin-left: 30px;
+} */
+
+.amet{
+    margin-top: -100px;
+    margin-right: 80px;
 }
