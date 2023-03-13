@@ -1,14 +1,21 @@
 .icons {
-    gap: 30px;
-    text-align: center;
+    gap: 330px;
+    display: flex;
+    margin: auto;
 }
 
 .copy{
-    margin-right: 90px;
-margin-top: 15px;
+margin-top: 65px;
 font-family: 'Heebo';
 font-size: 20px;
 color: #21243D;
+margin-left: 580px;
+gap: 40px;
+
+}
+.gap{
+margin-left: 540px;
+position: absolute;
 }
 
 
@@ -31,7 +38,7 @@ color: #21243D;
         display: flex;
     }
 }
-/* @media screen and (max-width:576px){
+@media screen and (max-width:576px){
     .icons {
         text-align: center;
         font-size: 5px;
@@ -47,4 +54,4 @@ color: #21243D;
     .gap{
         margin-left:130px;
     }
-} */
+}
