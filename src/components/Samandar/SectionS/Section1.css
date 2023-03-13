@@ -59,7 +59,7 @@ margin-left: 20px;
 
 @media(max-width:575px){
     section {
-        background: #EDF7FA;
+        /* background: #EDF7FA; */
         padding-bottom: 0px;
         margin-bottom: 0px;
     }

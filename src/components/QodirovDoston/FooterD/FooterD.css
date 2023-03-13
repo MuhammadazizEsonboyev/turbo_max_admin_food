@@ -23,18 +23,21 @@ position: absolute;
     .icons {
         text-align: center;
         font-size: 10px;
+        position: absolute;
+        margin-left: 140px;
     }
     #git {
         font-size: 20px;
     }
     .copy{
-    margin-left: -450px;
-    margin-top: 35px; 
+    margin-top: 65px; 
     display: flex;
+    margin-left: 20px;
+
 
     }
     .gap{
-        margin-left:-390px;
+        /* margin-left:-390px; */
         display: flex;
     }
 }
@@ -48,8 +51,7 @@ position: absolute;
         margin-left: -50px;
     }
     .copy{
-        margin-right: -1px;
-    margin-top: 5px;
+        margin-right: -150px;
     }
     .gap{
         margin-left:130px;
