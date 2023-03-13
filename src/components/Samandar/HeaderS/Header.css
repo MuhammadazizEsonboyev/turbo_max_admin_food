@@ -1,0 +1,83 @@
+.me{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+
+.header_text{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-bottom: 20px;
+}
+
+.header_btn{
+    color: white;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    padding: 9px 20px;
+    margin-bottom: 80px;
+}
+
+.header_img{
+/* height: 240px; */
+width: 380px;
+padding-top: 70px;
+}
+.imgDiv{
+text-align: center;
+    
+}
+
+
+
+
+@media(max-width:575px){
+    .header_img {
+        width: 300px;
+         padding-top: 2px; 
+    }
+
+    .me {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 40px;
+        color: #21243D;
+         padding-top: 0px; 
+         padding-bottom: 0px; 
+        text-align: center;
+        padding-left: 20px;
+    }
+    .header_text {
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #21243D;
+         padding-bottom: 0px; 
+        text-align: center;
+        padding-left: 20px;
+
+    }
+    .header_btn {
+        color: white;
+        background: #FF6464;
+        border-radius: 2px;
+        border: none;
+        padding: 9px 20px;
+         margin-bottom: 20px; 
+        margin-left: 70px;
+    }
+}
