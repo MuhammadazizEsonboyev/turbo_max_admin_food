@@ -91,7 +91,7 @@ const NavD = () => {
                 <button  className='btn'>Github</button>
                 </a>
                 <a  href={demo}>
-                <small style={{listStyle:'none',color:'black'}}  className='dash1'>Live Demo</small>
+                <small style={{color:'black'}}  className='dash1'>Live Demo</small>
                 </a>
               </div>
               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
