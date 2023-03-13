@@ -10,8 +10,7 @@ export default function Qodirov() {
       <NavbarpageD/>
       <HeaderD/>
       <NavD/>
-      <FooterD/>
-      
+      <FooterD/> 
     </div>
   )
 }
