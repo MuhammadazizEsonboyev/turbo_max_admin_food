@@ -21,17 +21,20 @@ color: #21243D;
         font-size: 20px;
     }
     .copy{
-        margin-right: -30px;
-    margin-top: 15px;
+    margin-left: -450px;
+    margin-top: 35px; 
+    display: flex;
+
     }
     .gap{
-        margin-left:130px;
+        margin-left:-390px;
+        display: flex;
     }
 }
-@media screen and (max-width:576px){
+/* @media screen and (max-width:576px){
     .icons {
         text-align: center;
-        font-size: 5px;   
+        font-size: 5px;
     }
     #git {
         font-size: 20px;
@@ -44,4 +47,4 @@ color: #21243D;
     .gap{
         margin-left:130px;
     }
-}
+} */

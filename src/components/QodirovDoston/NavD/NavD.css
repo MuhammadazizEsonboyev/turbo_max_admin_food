@@ -53,6 +53,7 @@ margin-top: 20px;
 @media screen and (max-width:1024px){
     #dost{
         display: grid !important;
+        margin-left: 38px;
     }
     .nimadur h1{
 font-size: 24px;
@@ -82,7 +83,15 @@ display: grid;
 flex-wrap: wrap;
 }
     .dost >h6{
-        margin: 6px 20px 6px 0px;
+        margin: 6px 20px 6px 55px;
+    }
+    .dash1{
+        margin-top: 19px;
+        width: 200px;
+        display: flex;
+    }
+    .nimadur{
+        margin-right: -70px ;
     }
 }
 @media screen and (max-width:600px){
