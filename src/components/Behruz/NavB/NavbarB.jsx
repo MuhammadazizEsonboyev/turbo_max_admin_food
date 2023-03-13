@@ -9,11 +9,11 @@ export default function NavbarB() {
             <Container>
                 <Row>
                     <Col>
-                        <div className='nav'>
-                            <ul className='list'>
-                                <li className='list_item'>Works</li>
-                                <li className='list_item'>Blog</li>
-                                <li className='list_item'>Contact</li>
+                        <div className='nyu'>
+                            <ul className='newpos'>
+                                <li className='list_ny'>Works</li>
+                                <li className='list_ny'>Blog</li>
+                                <li className='list_ny'>Contact</li>
                             </ul>
                         </div>
                     </Col>

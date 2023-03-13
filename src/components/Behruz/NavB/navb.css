@@ -3,20 +3,21 @@
     padding: 0;
 }
 
-.list{
+.newpos{
     display: flex;
    list-style: none;
+   margin-left: 750px;
     margin-top: 50px;
 }
 
 
-.list_item{
+.list_ny{
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 29px;
 text-align: right;
-
+padding-left: 40px;
 }
 
 .hbir{

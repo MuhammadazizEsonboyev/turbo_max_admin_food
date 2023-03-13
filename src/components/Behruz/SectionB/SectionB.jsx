@@ -10,7 +10,7 @@ export default function () {
                     <Row>
                         <Col xs={6}>
                             <h5 className='pos'>Recent posts</h5>
-                            <Card className='card' style={{ width: '400px' }}>
+                            <Card className='gado' style={{ width: '450px' }}>
                                 <Card.Body>
                                     <Card.Title>Making a design system from<br></br>scratch</Card.Title>
                                         <br></br>
@@ -26,7 +26,7 @@ export default function () {
 
                         <Col xs={6}>
                             <h6 className='al'>View all</h6>
-                            <Card className='cad' style={{ width: '400px' }}>
+                            <Card className='gado' style={{ width: '450px' }}>
                                 <Card.Body>
                                     <Card.Title>Making a design system from<br></br>scratch</Card.Title>
                                         <br></br>
