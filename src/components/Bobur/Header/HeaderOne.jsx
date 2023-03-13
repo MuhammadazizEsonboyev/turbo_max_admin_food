@@ -4,6 +4,7 @@ import "..//Bobur.css";
 import { images } from "../DynamicImg";
 import { cart } from "../DynamicCard";
 import { Link } from "react-router-dom";
+import NextPage from "../NextPage/NextPage";
 const imgLogo = require("..//Img/logo 1.png");
 const imgGithub = require("..//Img/Group 1.png");
 function HeaderOne() {
@@ -142,6 +143,8 @@ function HeaderOne() {
           </div>
         </div>
       </div>
+      <hr />
+      <NextPage/>
     </section>
   );
 }

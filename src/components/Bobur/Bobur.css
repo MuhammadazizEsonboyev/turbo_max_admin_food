@@ -67,3 +67,56 @@ span {
   color: #666666;
   padding-bottom: 95px;
 }
+
+.bigBox1 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: right;
+  color: #000000;
+}
+.hi {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+  color: #000000;
+}
+.Creative {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  color: #21243d;
+  padding-top: 200px;
+}
+
+.bigger {
+  margin-top: 200px;
+}
+
+.next {
+  padding-top: 200px;
+}
+
+.recent {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  align-items: flex-end;
+  color: #21243d;
+}
+
+.all {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #00a8cc;
+}
