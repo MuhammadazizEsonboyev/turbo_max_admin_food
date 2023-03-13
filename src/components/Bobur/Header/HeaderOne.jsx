@@ -93,7 +93,7 @@ function HeaderOne() {
       <div className="container">
         <div className="row">
           {cart.map((items) => (
-            <div className="col-3">
+            <div className="col-4">
               <div style={{width:"250px", height:"500px", marginBottom:"60px"}} class="card">
                 <img style={{width:"250px",height:"200px"}} src={items.img} class="card-img-top" alt="..." />
                 <div class="card-body">
@@ -107,6 +107,37 @@ function HeaderOne() {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+<hr />
+
+        <div className="container">
+        <div className="row justify-content-between mt-1">
+          <div className="col-2">
+            <img src={imgLogo} alt="" />
+          </div>
+          
+            <div className="col-4">
+              <h3 className="list_item" style={style}>
+                +998 95 057 08 16
+
+              </h3>
+            </div>
+
+            <div className="col-2">
+              <h3 className="list_item" style={style}>
+                brisqiboyev00@gmail.com
+
+              </h3>
+            </div>
+          <div className="col-3">
+            <img
+              style={{ marginLeft: "250px", alignItems: "center" }}
+              src={imgGithub}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>

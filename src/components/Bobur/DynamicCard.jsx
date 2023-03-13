@@ -21,9 +21,13 @@ img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxbPCa2d7fSbHEi5FBKo
     view:"https://efoodmarket.netlify.app"
   }, {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRyQEtUUzYEZagjCIK3Lb5t8iVcCPmFrVykA&usqp=CAU",
+    title:"Get value from input",
+    view:"https://react-todolistonlycreate.netlify.app",
+    see:"https://github.com/risqiboyevbobur/reacttodo"
   }, {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRyQEtUUzYEZagjCIK3Lb5t8iVcCPmFrVykA&usqp=CAU",
-  }, {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRyQEtUUzYEZagjCIK3Lb5t8iVcCPmFrVykA&usqp=CAU",
-  },
+    view:"https://dailyclocknumber1.netlify.app",
+    title:"Clock"
+
+  }
 ];
