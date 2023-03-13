@@ -6,18 +6,15 @@ import React from 'react'
 import Myimg from '../Images/My_img.jpg'
 import { Col, Row } from 'react-bootstrap';
 import '../NavbarPageD/NavbarD.css'
-
-
-
 import { useState } from 'react';
 
 const NavbarpageD = () => {
   const [activeNav, setActiveNav] = useState("#")
   return (
     <>
-      <section id='contect'>
-        <Container>
-          <Navbar bg="light" expand="lg">
+      <section style={{overflowX:'hidden'}} id='contect'>
+        <Container >
+          <Navbar  bg="light" expand="lg">
             <Container fluid>
               <Navbar.Brand href="#"></Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
