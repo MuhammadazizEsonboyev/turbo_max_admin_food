@@ -1,11 +1,11 @@
 import React from 'react'
 
-const FooterD = () => {
+const HeaderD = () => {
   return (
     <div>
-        footer
+      Header
     </div>
   )
 }
 
-export default FooterD
+export default HeaderD
