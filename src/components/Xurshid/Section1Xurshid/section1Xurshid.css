@@ -1,0 +1,81 @@
+.section1_p{
+    margin-top: 70px;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+/* identical to box height, or 273% */
+
+display: flex;
+align-items: flex-end;
+
+/* Dark Color */
+
+color: #21243D;
+}
+.section1_p1{
+    margin-top: 100px;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: right;
+
+/* Secondry */
+
+color: #00A8CC;
+}
+
+.section1_p2{
+    margin-left: 75px;
+}
+
+.box{
+    background: rgb(186, 186, 186);
+    width: 520px;
+    height: 215px;
+    border-radius: 4px;
+}
+
+
+
+.section_h3{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+text-align: center;
+
+}
+
+.ul_box{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.or_box{
+    height: 21px;
+    border: 1px solid green;
+    margin-right: 10px;
+}
+
+.list_box{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-right: 10px;
+
+
+}

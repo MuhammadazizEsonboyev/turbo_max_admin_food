@@ -1,0 +1,35 @@
+
+
+.footer_1{
+    margin-top: 160px;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer_h3{
+    
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+/* Dark */
+margin-top: 20px;
+color: #21243D;
+
+}
+
+
+@media (max-width:575px) {
+    .footer_1{
+        justify-content: center;
+    }
+    
+}
