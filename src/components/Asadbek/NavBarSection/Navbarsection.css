@@ -1,0 +1,6 @@
+@media screen  and (max-width:"576"){
+    #id{
+        display: grid;
+        flex-wrap: wrap;
+    }
+}
