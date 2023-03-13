@@ -89,8 +89,10 @@ flex-wrap: wrap;
         margin: 6px 20px 6px 55px;
     }
     .dash1{
-        margin-top: 19px;
+        margin-top: -43px;
+        padding-left: 380px;
         width: 200px;
+        font-size: 20px;
         display: flex;
     }
     .nimadur{
