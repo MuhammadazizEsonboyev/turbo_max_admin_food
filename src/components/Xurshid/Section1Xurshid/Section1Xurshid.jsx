@@ -29,7 +29,7 @@ export default function Section1Xurshid() {
 
             </Col>
 
-    <Col xs={5}>
+    <Col xs={6}>
                 <p className='section1_p1'>View all</p>
 
                 <div className="box">
