@@ -7,7 +7,8 @@ export default function Section1Xurshid() {
     <>
     <Container>
         <Row>
-            <Col xs={6}>
+           <Col>
+           <Col xs={6}>
                 <p className='section1_p'>Recent posts</p>
 
                 <div className="box">
@@ -29,6 +30,7 @@ export default function Section1Xurshid() {
 
             </Col>
 
+           </Col>
     <Col xs={6}>
                 <p className='section1_p1'>View all</p>
 

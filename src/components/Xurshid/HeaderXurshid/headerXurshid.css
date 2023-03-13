@@ -45,3 +45,15 @@ margin-top: 30px;
     margin-left: 106px;
 }
 
+
+
+@media (max-width:575px) {
+    .header_1{
+        margin-top: -900px;
+    }
+    .header_h1{
+        margin-top: 500px;
+        width: 390px;
+        text-align: center;
+    }
+}
