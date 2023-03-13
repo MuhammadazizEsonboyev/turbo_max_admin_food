@@ -101,14 +101,14 @@
     }
 
     .view {
-        margin: -10px 0px;
+        margin: 15px 0px 0px -96px;
         text-align: center;
     }
 
     .card {
         width: 354px;
         height: 300px;
-        margin-left: 12px;
+        margin-left: 50px;
         top: -26px;
         background: #FFFFFF;
         box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
