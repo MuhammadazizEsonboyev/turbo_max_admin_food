@@ -1,21 +1,27 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 export default function Users() {
-  return (
-    <div>
-        <Link to="/muhammadaziz">
-            <button>Muhammadaziz</button>
-        </Link>
-        <Link to="/asadbek">
-            <button>Asadbek</button>
-        </Link>
-        <Link to="/samandar">
-            <button>Samandar</button>
-        </Link>
-        <Link to="/doston-sila">
-            <button>Doston</button>
-        </Link>
-    </div>
-  )
+    return (
+        <div style={{display: "flex", justifyContent: "center", marginTop: "100px", gap: "20px"}}>
+
+            <Link to="/asadbek">
+                <Button variant="success">Asadbek</Button>
+            </Link>
+            <Link to="/doston-sila">
+                <Button variant="success">Doston</Button>
+            </Link>
+            <Link to="/behruz-axi">
+                <Button variant="success">Behruz</Button>
+            </Link>
+            <Link to="/xurshid-sila">
+                <Button variant="success">Xurshid</Button>
+            </Link>
+            <Link to="/bobur">
+                <Button variant="success">Bobur</Button>
+            </Link>
+        </div>
+    )
+
 }
