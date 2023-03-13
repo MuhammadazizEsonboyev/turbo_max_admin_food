@@ -3,6 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "..//Bobur.css";
+import { once } from "../DynamicCartOne";
 const NextPage = () => {
   return (
     <section>
@@ -11,10 +12,10 @@ const NextPage = () => {
         <Stack className="bigBox1">
           <div className="row justify-content-end">
             <div className="col-2">
-              <h1  className="hi">Works</h1>
+              <h1 className="hi">Works</h1>
             </div>
             <div className="col-2">
-              <h1  className="hi">Blog</h1>
+              <h1 className="hi">Blog</h1>
             </div>
             <div className="col-2">
               <h1 className="hi">Contact</h1>
@@ -70,10 +71,12 @@ const NextPage = () => {
               <h5 class="card-header">Making a design system from scratch</h5>
               <br />
               <div class="card-body">
-                <h5 class="card-title">12 Feb 2020  | Design, Pattern</h5>
+                <h5 class="card-title">12 Feb 2020 | Design, Pattern</h5>
                 <p class="card-text">
-                    <br />
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  <br />
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
                 </p>
               </div>
             </div>
@@ -81,10 +84,14 @@ const NextPage = () => {
           <Col xs={4}>
             <div class="card">
               <h5 class="card-header">Creating pixel perfect icons in Figma</h5>
+              <br />
               <div class="card-body">
                 <h5 class="card-title">12 Feb 2020 | Figma, Icon Design</h5>
+                <br />
                 <p class="card-text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
                 </p>
               </div>
             </div>
@@ -92,16 +99,25 @@ const NextPage = () => {
         </Row>
       </Container>
 
+      <Container>
+        <Row className="justify-content-start">
+          <Col xs={3}>
+            <h1>Featured works</h1>
+          </Col>
+        </Row>
+      </Container>
 
-<Container>
-    <Row className="justify-content-start">
-    <Col xs={3}>
-    <h1>Featured works</h1>
-    </Col>
-    </Row>
-</Container>
-
-      
+      <Container>
+        <Row className="justify-content-betweenfy">
+          {once.map((item) => (
+            <Col xs={4}>
+             <div className="image">
+                <img src={item.img} alt="" />
+             </div>
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </section>
   );
 };
