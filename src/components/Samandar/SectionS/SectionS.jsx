@@ -5,7 +5,7 @@ import "./Section1.css"
 const SectionS = () => {
     return (
         <>
-            <section>
+            <section className='sction2'>
 
                 <Container>
                     <Row className="justify-content-start">

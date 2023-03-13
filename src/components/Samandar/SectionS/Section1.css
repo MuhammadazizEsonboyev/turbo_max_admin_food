@@ -1,4 +1,4 @@
-section{
+.sction2{
     background: #EDF7FA;
     padding-bottom: 30px;
     margin-bottom: 20px;
@@ -7,7 +7,7 @@ section{
 .Card{
     margin-top: 10px;
 background-color: white;
-width: 450px;
+width: 100%;
 }
 .section_text{
     padding-top: 20px;
@@ -58,7 +58,7 @@ margin-left: 20px;
 
 
 @media(max-width:575px){
-    section {
+    .sction2 {
         background: #EDF7FA;
         padding-bottom: 0px;
         margin-bottom: 0px;
@@ -71,7 +71,7 @@ margin-left: 20px;
     .Card {
         margin-top: 0px;
         background-color: white;
-        width: 340px;
+        width: 100%;
     }
 
     .section_text {
@@ -96,4 +96,6 @@ margin-left: 20px;
         margin-left: 0px;
         text-align: center;
     }
+
+    
 }
