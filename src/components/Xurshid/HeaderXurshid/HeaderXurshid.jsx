@@ -9,7 +9,7 @@ export default function HeaderXurshid() {
       <Container>
         <Row>
           <Col ls={10}>
-            <Col xs={7}>
+            <Col xs={8}>
               <div className="header">
                 <h1 className="header_h1">
                   Hi, I am John, <br />
@@ -17,8 +17,8 @@ export default function HeaderXurshid() {
                 </h1>
 
                 <p className="header_p">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor doamet <br />
-                  sint. Velit officia consequat duis enim velit mollit. Exercitation veniam <br />
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor  <br /> doamet   
+                  sint. Velit officia consequat duis enim velit mollit. Exercitation veniam   <br />
                   consequat sunt nostrud amet.
                 </p>
 
