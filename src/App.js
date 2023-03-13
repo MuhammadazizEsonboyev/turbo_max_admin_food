@@ -13,10 +13,13 @@ export default function App() {
 
   return (
     <>
+<<<<<<< HEAD
+=======
 
     
 
 
+>>>>>>> fcca79d03b5b12486e68c590849ca501c424bd8a
         <Router>
           <Routes>
             <Route path='/' element={<Users/>}/>
@@ -29,7 +32,6 @@ export default function App() {
             <Route path='/bobur' element={<Bobur/>}/>
           </Routes>
         </Router>
-
     </>
   )
 }
