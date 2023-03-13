@@ -17,6 +17,7 @@
 }
 
 .cad{
+ 
     margin-top: 40px;
     margin-left: 60px;
     margin-bottom: 50px;
@@ -29,4 +30,9 @@
 
 .pos{
     margin-left: 70px;
+}
+
+.amet{
+    margin-top: -100px;
+    margin-right: 80px;
 }
