@@ -6,7 +6,6 @@ const HeaderD = () => {
   return (
     <>
       <section id='blog'>
-
         <Container id='sec'>
           <Row id="post" className="justify-content-around">
             <Col xs={4}>
