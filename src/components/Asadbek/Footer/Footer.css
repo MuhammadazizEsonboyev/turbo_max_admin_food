@@ -32,9 +32,75 @@
     line-height: 21px;
     text-align: center;
     color: #21243D;
-   
 }
 
-.box-of-icons{
+.box-of-icons {
     margin: 120px 0px 20px 500px;
+}
+
+
+@media screen and (max-width:576px) {
+    .form-control {
+        width: 100%;
+    }
+
+    #comment {
+        width: 360px;
+        height: 100px;
+    }
+
+    .your-name {
+        width: 360px;
+    }
+
+    #btn-submit {
+        margin: 0px 200px 0px 0px;
+    }
+
+    #names {
+        width: 300px;
+    }
+
+    #accordion {
+        width: 360px;
+
+    }
+
+    .box-of-icons {
+        margin: 30px 0px 0px 100px;
+    }
+
+    .copyright {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 21px;
+        text-align: center;
+        color: #21243D;
+    }
+    .facebook-icon {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    
+    }
+    
+    .insta-icon {
+        width: 28px;
+        height: 28px;
+        padding: 10px;
+    
+    }
+    
+    .twitter-icon {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    
+    }
+    
+    .linkIn-icon {
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+    }
 }
