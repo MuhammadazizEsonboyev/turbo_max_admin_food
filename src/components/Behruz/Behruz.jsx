@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Behruz.css"
 import FooterB from './FooterB/FooterB'
 import HeaderB from './HeaderB/HeaderB'
 import NavbarB from './NavB/NavbarB'
