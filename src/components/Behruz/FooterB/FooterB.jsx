@@ -13,7 +13,7 @@ export default function FooterB() {
         <Container>
             <Row className='justify-content-center mt-5'>
                 <Col>
-                    <div className='icons'>
+                    <div className='icls'>
                         <a href='https://github.com/Behruzaxi'>
                         <GitHubIcon className='ico' style={{fontSize: '60px', paddingLeft: "10px"}} />
                         </a>
