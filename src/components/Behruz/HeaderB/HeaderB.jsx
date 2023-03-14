@@ -1,5 +1,6 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Form } from 'react-router-dom'
 import "./head.css"
 const one = require("../imagebex/one.png")
 const two = require("../imagebex/two.png")
@@ -16,10 +17,10 @@ export default function HeaderB() {
                         <h3 className='des'>Weather project</h3>
                         <br></br>
                         <a href='https://joyful-maamoul-1cf1b4.netlify.app/'>
-                       <button className='but'>Look</button>
+                            <button className='but'>Look</button>
                         </a>
                         <a href='https://github.com/Behruzaxi/weather-04'>
-                       <button className='bhu'>GitHub</button>
+                            <button className='bhu'>GitHub</button>
                         </a>
 
                         <p className='veli'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br></br> officia consequat duis enim velit  mollit. Exercitation veniam<br></br> consequat sunt nostrud amet.</p>
@@ -36,10 +37,10 @@ export default function HeaderB() {
 
                         <a href='https://stellar-crumble-a0176e.netlify.app/'>
 
-                        <button className='twwobut'>Look</button>
+                            <button className='twwobut'>Look</button>
                         </a>
                         <a href='https://github.com/Behruzaxi/bekhruz-crud'>
-                        <button className='githbbt'>GitHub</button>
+                            <button className='githbbt'>GitHub</button>
                         </a>
 
                         <p className='veli'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit<br></br> officia consequat duis enim velit  mollit. Exercitation veniam<br></br> consequat sunt nostrud amet.</p>
@@ -47,7 +48,6 @@ export default function HeaderB() {
                         <hr className='hr'></hr>
                     </Col>
                 </Row>
-
 
                 <Row>
                     <Col xs={10}>
@@ -68,7 +68,10 @@ export default function HeaderB() {
                     </Col>
                 </Row>
 
+                
+
             </Container>
+
         </>
     )
 }

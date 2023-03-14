@@ -6,6 +6,7 @@
 // import YouTubeIcon from '@mui/icons-material/YouTube';
 // import TelegramIcon from '@mui/icons-material/Telegram';
 
+
 // export default function FooterB() {
 //   return (
 //     <>
@@ -26,6 +27,7 @@
 //                         <TelegramIcon className='ico' style={{fontSize: '60px', paddingLeft: "10px"}}/>
 //                         </a>
 //                     </div>
+
 
 //                     <h6 className='olti'>Copyright ©2020 All rights reserved </h6>
 //                 </Col>
