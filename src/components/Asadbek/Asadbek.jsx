@@ -6,7 +6,7 @@ import Section from './Section/Section'
 
 export default function Asadbek() {
   return (
-    <div>
+    <div style={{overflowX:"hidden"}}>
       <NavbarSection/>
       <Header/>
       <Section/>

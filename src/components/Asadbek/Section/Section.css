@@ -1,15 +1,13 @@
  * {
      margin: 0;
      padding: 0;
-
  }
 
  .img-box {
      width: 290px;
-     height: 180px;
+     height: 200px;
      background-image: url("https://img.freepik.com/free-vector/gradient-stock-market-concept_23-2149166910.jpg");
      border-radius: 6px;
-
  }
 
  .works {
@@ -18,19 +16,17 @@
      font-size: 22px;
      line-height: 60px;
      color: #21243D;
-
  }
 
  .df-card {
      display: flex;
      margin: 30px 0px 30px 150px;
      position: relative;
-
  }
 
  .data-Dash {
      display: flex;
-     margin-top: 55px;
+     margin-top: 25px;
  }
 
  .dashboard {
@@ -38,7 +34,7 @@
      font-size: 26px;
      line-height: 29px;
      color: #8695A4;
-     margin: 0px 0px 30px 0px;
+     margin: 0px 0px 20px 0px;
  }
 
  .date-box {
@@ -50,7 +46,7 @@
      font-size: 18px;
      color: #FFFFFF;
      padding: 1px 0px 5px 15px;
-     margin: 4.5px 36px 20px 30px;
+     margin: 4.5px 36px 20px 10px;
  }
 
 
@@ -71,9 +67,62 @@
      margin: 10px 0px 0px 20px;
  }
 
- @media only screen  and (max-width:"576"){
-    #for-responsive{
-        display: grid;
-        flex-wrap: wrap;
+ @media only screen and (max-width:576px) {
+     .works {
+         margin-left: 130px;
+         font-weight: 500;
+         font-size: 20px;
+         color: #21243D;
+     }
+
+     #for-responsive {
+         display: grid;
+         flex-wrap: wrap;
+     }
+
+
+     .img-box {
+         width: 100%;
+         border-radius: 6px;
+     }
+
+     .df-card {
+         display: flex;
+         margin: 30px 0px 30px 0px;
+     }
+
+     .des-dashboard {
+         margin: 15px 0px 0px 20px;
+         font-weight: 700;
+         font-size: 24px;
+         color: #21243D;
+     }
+     .data-Dash {
+        display: flex;
+        margin-top: 15px;
     }
-}
+    .date-box {
+        width: 72px;
+        height: 30px;
+        background: #142850;
+        border-radius: 16px;
+        font-weight: 900;
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 1px 0px 5px 15px;
+        margin: 4.5px 36px 20px 20px;
+    }
+    .dashboard {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 29px;
+        color: #8695A4;
+        margin: 0px 0px 0px 0px;
+    }
+    .mini-info-sec {
+        font-weight: 400;
+        font-size: 18px;
+        color: #21243D;
+        margin: 0px 0px 0px 20px;
+    }
+ }
