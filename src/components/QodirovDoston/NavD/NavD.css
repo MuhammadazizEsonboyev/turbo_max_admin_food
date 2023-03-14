@@ -89,10 +89,10 @@ small {
 
     .nimadur p {
         text-align: center;
-        width: 320px;
-        margin-left: 260px;
         display: grid;
         flex-wrap: wrap;
+        width: 299px;
+        margin-left: 188px;
     }
 
     .dost>h6 {
@@ -112,4 +112,13 @@ small {
     }
 }
 
-@media screen and (max-width:600px) {}
+@media screen and (max-width:600px) {
+ .imgfed{
+    width: 340px;
+    height: 247px;
+    margin-left: -50px;
+ }
+ .nimadur h1{
+    margin-left: 196px;
+ }
+}

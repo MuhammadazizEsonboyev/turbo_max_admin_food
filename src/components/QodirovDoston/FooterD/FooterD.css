@@ -18,7 +18,6 @@ margin-left: 740px;
 position: absolute;
 }
 
-
 @media screen and (max-width:1024px){
     .icons {
         text-align: center;
@@ -32,7 +31,7 @@ position: absolute;
     .copy{
     margin-top: 65px; 
     display: flex;
-    margin-left: 20px;
+    margin-left: -40px;
 
 
     }
@@ -51,9 +50,9 @@ position: absolute;
         margin-left: -50px;
     }
     .copy{
-        margin-right: -150px;
+        margin-right: -45px;
     }
     .gap{
-        margin-left:130px;
+        margin-left:53px;
     }
 }

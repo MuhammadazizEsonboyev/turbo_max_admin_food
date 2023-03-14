@@ -33,7 +33,7 @@ const NavbarpageD = () => {
               </Navbar.Collapse>
             </Container>
           </Navbar>
-          <Row className="container">
+          <Row className="justify-content-between  container">
             <Col xs={5}>
               <section className="navbar_content">
                 <h1 >Hi, I am Doston,<br />

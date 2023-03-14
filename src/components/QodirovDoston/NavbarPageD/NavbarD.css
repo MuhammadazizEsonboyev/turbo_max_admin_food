@@ -5,9 +5,8 @@
         height: 497px;
         display: block;
         object-fit: cover;
-        margin: 100px 149px 12px 130px;
+        margin: 100px 9px 12px -30px;
 }
-
 .navbar_content >h1{
     font-family: 'Heebo';
     font-style: normal;
@@ -37,9 +36,6 @@
 }
 
 
-
-
-
 /* =========================== media qilamiz  */
 
 
@@ -55,12 +51,9 @@ width: 312px;
 height: 120px;
 left: 32px;
 top: 297px;
-font-family: 'Heebo';
-font-weight: 700;
 font-size: 32px;
 line-height: 40px;
 text-align: center;
-color: #21243D;
     }
     .navbar_content > button{
         margin: auto;
@@ -74,4 +67,34 @@ color: #21243D;
     }
 }
 @media screen and (max-width:600px){
+    .container{
+        display: grid;
+            margin-left: 25px;
+        }
+        .navbar_content{
+    margin-top: -10rem;
+    text-align: center;
+    left: 32px;
+    font-size: 32px;
+    text-align: center;
+        }
+        .navbar_content > button{
+            margin: auto;
+            align-items: center;
+            margin-right: 90px;
+
+        }
+        .my_img{
+            margin-top: 290px !important;
+            margin: auto;
+            width: 293px;
+            height: 397px;
+            margin-left: -30px;
+        }
+        .navbar_content >h1{
+            margin-left: -90px;
+        }
+.navbar_content >p{
+margin-right: 90px;
+}
 }
