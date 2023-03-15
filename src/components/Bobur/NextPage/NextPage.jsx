@@ -78,9 +78,9 @@ const NextPage = () => {
         <div className="bigger">
           <Row className="justify-content-between mt-5 ">
             <Col xs={4}>
-              <h1 className="animate__animated animate__heartBeat">Hi, I am John, Creative Technologist</h1>
+              <h1 className="animate__animated animate__fadeInLeftBig">Hi, I am John, Creative Technologist</h1>
               <br />
-              <p>
+              <p className="animate_animated animate__bounceOut">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -89,7 +89,8 @@ const NextPage = () => {
               <Button variant="contained">Download Resume</Button>
             </Col>
             <Col xs={4}>
-              <img
+              <img 
+              className="animate_animated animate__fadeInDown"
                 style={{ borderRadius: "50%" }}
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYd0omtDBfA5NqelbCs0kc8E_SpZOVOoi_h3jm6do9qYLwIKYL3oVFv0os-d7W_NN2b4g&usqp=CAU"
                 alt=""
@@ -115,10 +116,10 @@ const NextPage = () => {
       </Container>
 
       <Container>
-        <div style={{ background: "#EDF7FA" }} className="Bobur">
+        <div style={{ background: "#EDF7FA" }} className="Bobur ">
           <Row className="justify-content-around mb-5">
             <Col xs={4}>
-              <div class="card">
+              <div class="card animate__animated animate__bounceIn">
                 <h5 class="card-header">Making a design system from scratch</h5>
                 <br />
                 <div class="card-body">
@@ -133,7 +134,7 @@ const NextPage = () => {
               </div>
             </Col>
             <Col xs={4}>
-              <div class="card">
+              <div class="card animate__animated animate__bounceIn">
                 <h5 class="card-header">
                   Creating pixel perfect icons in Figma
                 </h5>
@@ -158,7 +159,7 @@ const NextPage = () => {
       <Container>
         <Row className="justify-content-start ">
           <Col xs={3}>
-            <h1>Featured works</h1>
+            <h1 className="animate__animated animate__bounceOut">Featured works</h1>
           </Col>
         </Row>
       </Container>
