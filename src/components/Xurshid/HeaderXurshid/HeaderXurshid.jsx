@@ -1,41 +1,37 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./headerXurshid.css";
-const avatar = require("../img/Avatar.png");
+const header_img = require("../img/Avatar.png")
 
 export default function HeaderXurshid() {
   return (
-    <>
-      <Container>
-        <Row>
-          <Col>
-            <Col xs={9}>
-              <div className="header">
-                <h1 className="header_h1">
-                  Hi, I am John, <br />
-                  Creative Technologist
-                </h1>
+    <div>
+      <header>
+        <Container>
+          <Row>
 
-                <p className="header_p">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor  <br /> doamet   
-                  sint. Velit officia consequat duis enim velit mollit. Exercitation veniam   <br />
-                  consequat sunt nostrud amet.
-                </p>
+            
+            <Col xs={8}>
+              <h1 className="header_h1">
+                Hi, I am John, <br />
+                Creative Technologist
+              </h1>
 
-                <button className="header_button">Download Resume</button>
-              </div>
+              <p className="header_p">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet <br /> sint. Velit officia consequat duis enim velit
+                mollit. Exercitation veniam <br /> consequat sunt nostrud amet.
+              </p>
+
+              <button className="header_button">Download Resume</button>
             </Col>
-          </Col>
 
-          <Col>
-            <Col xs={3}>
-              <div className="header_1">
-                <img className="header_xurshid" src={avatar} alt="" />
-              </div>
+            <Col xs={4}>
+                <img className="header_img1" src={header_img} alt="" />
             </Col>
-          </Col>
-        </Row>
-      </Container>
-    </>
+          </Row>
+        </Container>
+      </header>
+    </div>
   );
 }

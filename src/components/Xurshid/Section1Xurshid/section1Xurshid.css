@@ -79,3 +79,16 @@ margin-right: 10px;
 
 
 }
+
+@media (max-width:575px) {
+    .section_h3{
+        margin-left: -110px;
+    }
+
+    .ul_box{
+        margin-left: -100px;
+    }
+   .section1_p2{
+    margin-left: -30px;
+   } 
+}

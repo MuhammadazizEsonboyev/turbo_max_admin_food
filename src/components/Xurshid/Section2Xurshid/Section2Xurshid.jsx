@@ -11,12 +11,12 @@ export default function Section2Xurshid() {
           <Col xs={12}>
             <h1 className="section_2">Featured works</h1>
           </Col>
-         
-       <Col>
-       <Col xs={4}>
-            <img className="img_s" src={imga} alt="" />
+
+          <Col>
+            <Col xs={4}>
+              <img className="img_s" src={imga} alt="" />
+            </Col>
           </Col>
-       </Col>
 
           <Col xs={8}>
             <h1 className="section2_h1">Designing Dashboards</h1>
@@ -31,12 +31,11 @@ export default function Section2Xurshid() {
             </p>
           </Col>
 
-
           <Col>
-       <Col xs={4}>
-            <img  className="img_s" src={imga} alt="" />
+            <Col xs={4}>
+              <img className="img_s" src={imga} alt="" />
+            </Col>
           </Col>
-       </Col>
 
           <Col xs={8}>
             <h1 className="section2_h1">Vibrant Portraits of 2020</h1>
@@ -52,10 +51,10 @@ export default function Section2Xurshid() {
           </Col>
 
           <Col>
-       <Col xs={4}>
-            <img className="img_s" src={imga} alt="" />
+            <Col xs={4}>
+              <img className="img_s" src={imga} alt="" />
+            </Col>
           </Col>
-       </Col>
 
           <Col xs={8}>
             <h1 className="section2_h1">36 Days of Malayalam type</h1>

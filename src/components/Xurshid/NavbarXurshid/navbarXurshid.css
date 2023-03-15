@@ -1,28 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-.navbar{
-    display: flex;
-    
+.sd{
     font-family: 'Heebo';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
-text-align: right;
-
-color: #000000;
-
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    
+    color: #000000;
 }
 
-@media (max-width:576px) {
-    .navbar{
-        width: 270px;
-        text-align: center;
-    }
+
+.navbar_2{
+    display: flex;
+    gap: 30px;
 }
 

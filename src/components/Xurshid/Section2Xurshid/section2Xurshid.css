@@ -1,84 +1,79 @@
-.section_2{
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 60px;
+.section_2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
 
-color: #21243D;
-margin-top: 50px;
-
+  color: #21243d;
+  margin-top: 50px;
 }
 
-.section2_p2{
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 29px;
+.section2_p2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
 
-/* Light */
+  /* Light */
 
-color: #8695A4;
-
+  color: #8695a4;
 }
 
-.section2_p{
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+.section2_p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 
-/* Dark Color */
+  /* Dark Color */
 
-color: #21243D;
+  color: #21243d;
 }
 
-.section2_h1{
-    margin-top: 10px;
-    font-family: 'Heebo';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 44px;
-/* identical to box height */
+.section2_h1 {
+  margin-top: 10px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
 
+  /* Dark Color */
 
-/* Dark Color */
-
-color: #21243D;
-text-align:left;
+  color: #21243d;
+  text-align: left;
 }
 
-.section2_img{
-    background: blue;
+.section2_img {
+  background: blue;
 }
 
-.section2_div{
-    display: flex;
+.section2_div {
+  display: flex;
 }
 
-@media (max-width:575px) {
-
-.img_s{
+@media (max-width: 575px) {
+  .img_s {
     margin-left: 116px;
-}
+  }
 
-    .section2_h1{
-        margin-left: 116px;
-        width: 300px;
-    }
+  .section2_h1 {
+    margin-left: 116px;
+    width: 300px;
+  }
 
-    .section2_p{
-        margin-left: 116px;
-        width: 300px;
+  .section2_p {
+    margin-left: 116px;
+    width: 300px;
+  }
 
-    }
-
-    .section2_p2{
-        margin-left: 116px;
-        text-align: center;
-        margin-left: 200px;
-    }
+  .section2_p2 {
+    margin-left: 116px;
+    text-align: center;
+    margin-left: 200px;
+  }
 }
