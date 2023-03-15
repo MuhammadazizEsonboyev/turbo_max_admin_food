@@ -1,10 +1,12 @@
 import React from 'react'
-import HeaderOne from './Header/HeaderOne'
+// import HeaderOne from './Header/HeaderOne'
+import NextPage from './NextPage/NextPage'
 
 export default function Bobur() {
   return (
     <div>
-      <HeaderOne/>
+      {/* <HeaderOne/> */}
+      <NextPage/>
     </div>
   )
 }

@@ -46,6 +46,7 @@
 @media screen and (max-width:1024px){
     .container{
     display: grid;
+        margin-left: 57px;
     }
     .navbar_content{
 margin-top: -10rem;
@@ -66,7 +67,7 @@ color: #21243D;
         align-items: center;
     }
     .my_img{
-        margin-top: 300px !important;
+        margin-top: 250px !important;
         margin: auto;
         width: 293px;
         height: 397px;

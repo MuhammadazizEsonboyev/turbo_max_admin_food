@@ -1,0 +1,77 @@
+.header{
+    margin-top: 150px;
+}
+
+.header_h1{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+
+.header_p{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+margin-top: 30px;
+}
+
+.header_button{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+color: white;
+background: #FF6464;
+border-radius: 2px;
+padding: 9px 21px 10px 20px;
+border: none;
+margin-top: 30px;
+}
+
+.header_1{
+    margin-top: 140px;
+    margin-left: 106px;
+}
+
+.header_xurshid{
+    margin-left: 200px;
+}
+
+
+
+@media (max-width:575px) {
+    .header_1{
+        margin-top: -800px;
+    }
+    .header_h1{
+        margin-top: 500px;
+        width: 390px;
+        text-align: center;
+    }
+
+    .header_p{
+        width: 400px;
+    text-align: center;
+    }
+
+    .header_button{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .header_xurshid{
+        margin-left: -35px;
+    }
+}

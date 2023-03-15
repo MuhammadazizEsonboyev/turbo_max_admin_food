@@ -12,7 +12,7 @@ const SectionCard = () => {
                 <Row className="justify-content-start">
                 <h4 className="recent">Featured works</h4>
 
-                    <Col xs={8} className='d-none d-lg-block'>
+                    <Col xs={11} className='d-none d-lg-block'>
                    <div className="CardBox">
                    <div className="imageBox">
                         <img src={imageCard1} alt="" className="imageCard"/>
@@ -29,7 +29,7 @@ const SectionCard = () => {
                     <hr />
                     </Col>
 
-                    <Col xs={8} className='d-none d-lg-block'>
+                    <Col xs={11} className='d-none d-lg-block'>
                     <div className="CardBox">
                     <div className="imageBox">
                         <img src={imageCard2} alt="" className="imageCard"/>
@@ -46,7 +46,7 @@ const SectionCard = () => {
                     <hr />
                     </Col>
 
-                    <Col xs={8} className='d-none d-lg-block'>
+                    <Col xs={11} className='d-none d-lg-block'>
                 <div className="CardBox">
                 <div className="imageBox">
                         <img src={imageCard3} alt="" className="imageCard"/>
@@ -66,7 +66,7 @@ const SectionCard = () => {
 
                 <Row className="justify-content-start">
 
-                    <Col xs={8} lg={4} className='d-block d-lg-none'>
+                    <Col xs={11} lg={4} className='d-block d-lg-none'>
                    <div className="CardBox">
                    <div className="imageBox">
                         <img src={imageCard1} alt="" className="imageCard"/>
@@ -83,7 +83,7 @@ const SectionCard = () => {
                     <hr />
                     </Col>
 
-                    <Col xs={8} lg={4} className='d-block d-lg-none'>
+                    <Col xs={11} lg={4} className='d-block d-lg-none'>
                     <div className="CardBox">
                     <div className="imageBox">
                         <img src={imageCard2} alt="" className="imageCard"/>
@@ -100,7 +100,7 @@ const SectionCard = () => {
                     <hr />
                     </Col>
 
-                    <Col xs={8} lg={4} className='d-block d-lg-none'>
+                    <Col xs={11} lg={4} className='d-block d-lg-none'>
                 <div className="CardBox">
                 <div className="imageBox">
                         <img src={imageCard3} alt="" className="imageCard"/>
