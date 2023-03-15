@@ -1,6 +1,6 @@
 import { Button, Stack } from "@mui/material";
 import axios from "axios";
-import 'animate.css';
+// import 'animate.css';
 import React, { useEffect, useState } from "react";
 import { Accordion, Col, Container, Form, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
