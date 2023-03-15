@@ -30,6 +30,9 @@ color: #21243D;
 @media (max-width:575px) {
     .footer_1{
         justify-content: center;
+        margin-left: 157px;
     }
-    
+    .footer_h3{
+        margin-left: 149px;
+    }
 }
