@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./foot.css"
-import { Button, Col, Container, Form, ListGroup, Row } from 'react-bootstrap'
+import { Accordion, Button, Col, Container, DropdownButton, Form, ListGroup, Row } from 'react-bootstrap'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -32,8 +32,10 @@ export default function FooterB() {
     }
 
 
-    const delete_func = (data) => {
-        axios.delete(`https://newrepository-production.up.railway.app/data/${data}`)
+    const delete_func = (id) => {
+        axios.delete(`https://newrepository-production.up.railway.app/data/${id}`)
+        // .then((res) => alert("deleted"))
+        setGetdata(getdata.filter((el) => el.id !== id))
     }
 
     useEffect(() => {
@@ -47,7 +49,7 @@ export default function FooterB() {
             <Container>
 
                 <Row className='justify-content-center mt-3'>
-                    <Col xs={6}>
+                    <Col xs={6} >
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Name</Form.Label>
@@ -70,9 +72,22 @@ export default function FooterB() {
                             {getdata?.map((user) => {
                                 return (
                                     <>
-                                        <ListGroup.Item><b>Name:</b>{user.name}</ListGroup.Item>
-                                        <ListGroup.Item><b>Coment:</b>{user.coment}</ListGroup.Item>
-                                        <button onClick={() => delete_func(user.data)}>delete</button>
+
+                                        <DropdownButton id="dropdown-basic-button" title="All" >
+                                            <DropdownButton id="dropdown-basic-button" title="Look">
+                                                <Accordion className='acrdio'>
+                                                    <Accordion.Item eventKey="1">
+                                                        <Accordion.Header>All Names  and coments</Accordion.Header>
+                                                        <Accordion.Body>
+                                                            <ListGroup.Item><b>Name:</b>{user.name}</ListGroup.Item>
+                                                            <br></br>
+                                                            <ListGroup.Item><b>Coment:</b>{user.coment}</ListGroup.Item>
+                                                            <button onClick={() => delete_func(user.id)} className='acrbutton'>delete</button>
+                                                        </Accordion.Body>
+                                                    </Accordion.Item>
+                                                </Accordion>
+                                            </DropdownButton>
+                                        </DropdownButton>
                                     </>
                                 )
                             })}
