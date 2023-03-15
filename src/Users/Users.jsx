@@ -7,7 +7,7 @@ export default function Users() {
         <div style={{display: "flex", justifyContent: "center", marginTop: "100px", gap: "20px"}}>
 
             <Link to="/asadbek">
-                <Button variant="success">Asadbek</Button>
+                <Button variant="success">Asadbek-sila</Button>
             </Link>
             <Link to="/doston-sila">
                 <Button variant="success">Doston</Button>
