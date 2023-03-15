@@ -1,0 +1,115 @@
+.dash1 {
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: none;
+    color: #becddc;
+}
+
+.imgfed {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 92px;
+    height: 15px;
+    padding: 0px 0px 30px 0px;
+    background: #142850;
+    border-radius: 16px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.nimadur {
+    margin: 40px;
+    margin-left: -220px;
+}
+
+.dost>h6 {
+    margin: 40px 20px 50px 0px;
+}
+
+small {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 90px 0px 0px 30px;
+    color: #8695A4;
+}
+
+.nimadur h1 {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 18px;
+}
+
+.nimadur p {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #21243D;
+    width: 700px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1024px) {
+    #dost {
+        display: grid !important;
+        margin-left: 38px;
+    }
+
+    .nimadur h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-right: -420px;
+        width: 300px;
+        margin-left: 249px;
+    }
+
+    small {
+        margin-left: 30px;
+        width: 90px;
+        margin: 0px 0px 0px 30px;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .btn {
+        margin: 15px 0px 0px 280px;
+        width: 100px;
+        height: 35px;
+        font-size: 20px;
+    }
+
+    .nimadur p {
+        text-align: center;
+        width: 320px;
+        margin-left: 260px;
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    .dost>h6 {
+        margin: 6px 20px 6px 55px;
+    }
+
+    .dash1 {
+        margin-top: -43px;
+        padding-left: 380px;
+        width: 200px;
+        font-size: 20px;
+        display: flex;
+    }
+
+    .nimadur {
+        margin-right: -70px;
+    }
+}
+
+@media screen and (max-width:600px) {}

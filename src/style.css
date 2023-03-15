@@ -1,0 +1,10 @@
+.click{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+input{
+    padding: 5px 40px;
+}

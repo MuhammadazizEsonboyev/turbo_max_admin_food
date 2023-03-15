@@ -1,0 +1,77 @@
+.my_img{
+        border-radius: 50%;
+        padding: 50px 0px 50px 0px;
+        width: 393px;
+        height: 497px;
+        display: block;
+        object-fit: cover;
+        margin: 100px 149px 12px 130px;
+}
+
+.navbar_content >h1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-top: 228px;
+}
+.navbar_content >p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    
+}
+.navbar_content > button{
+    width: 208px;
+    height: 47px;
+    left: 148px;
+    top: 477px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+}
+
+
+
+
+
+/* =========================== media qilamiz  */
+
+
+@media screen and (max-width:1024px){
+    .container{
+    display: grid;
+        margin-left: 57px;
+    }
+    .navbar_content{
+margin-top: -10rem;
+text-align: center;
+width: 312px;
+height: 120px;
+left: 32px;
+top: 297px;
+font-family: 'Heebo';
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+text-align: center;
+color: #21243D;
+    }
+    .navbar_content > button{
+        margin: auto;
+        align-items: center;
+    }
+    .my_img{
+        margin-top: 250px !important;
+        margin: auto;
+        width: 293px;
+        height: 397px;
+    }
+}
+@media screen and (max-width:600px){
+}
