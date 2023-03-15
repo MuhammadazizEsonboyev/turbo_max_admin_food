@@ -119,6 +119,7 @@ const NextPage = () => {
         <div style={{ background: "#EDF7FA" }} className="Bobur ">
           <Row className="justify-content-around mb-5">
             <Col xs={4}>
+              
               <div class="card animate__animated animate__bounceIn">
                 <h5 class="card-header">Making a design system from scratch</h5>
                 <br />
