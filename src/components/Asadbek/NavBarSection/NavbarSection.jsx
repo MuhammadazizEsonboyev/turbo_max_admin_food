@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import './Navbarsection.css'
-
+import 'animate.css';
 function NavbarSection() {
   return (
     <>
