@@ -6,6 +6,8 @@ const airstr = require("../imagebex/air.jpg")
 export default function NavbarB() {
     return (
         <>
+
+
             <Container>
                 <Row>
                     <Col>
@@ -38,6 +40,7 @@ export default function NavbarB() {
                 </Row>
 
             </Container>
+    
         </>
     )
 }
