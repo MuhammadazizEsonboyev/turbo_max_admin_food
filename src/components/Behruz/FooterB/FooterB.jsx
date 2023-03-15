@@ -8,10 +8,12 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 import axios from 'axios';
 
 
+
 export default function FooterB() {
 
     const [getdata, setGetdata] = useState()
-
+    const [post, setPost] = useState()
+    const [coment, setComent] = useState()
 
     const getAllData = () => {
         axios.get("https://newrepository-production.up.railway.app/data")
@@ -19,10 +21,25 @@ export default function FooterB() {
                 setGetdata(res?.data)
             })
     }
+
+    const postUsers = () => {
+        axios.post("https://newrepository-production.up.railway.app/data", { name: post, coment: coment })
+            .then((data) => {
+                alert(data.statusText)
+                setPost("")
+                setComent("")
+            })
+    }
+
+
+    const delete_func = (data) => {
+        axios.delete(`https://newrepository-production.up.railway.app/data/${data}`)
+    }
+
     useEffect(() => {
         getAllData()
     }, [])
-    console.log(getAllData)
+
 
     return (
         <>
@@ -34,17 +51,13 @@ export default function FooterB() {
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label>Name</Form.Label>
-                                <Form.Control type="text" placeholder="write you name" />
-                                <Form.Text className="text-muted">
-                                    We'll never share your email with anyone else.
-                                </Form.Text>
+                                <Form.Control type="text" placeholder="write you name" value={post} onChange={(e) => setPost(e.target.value)} required />
                             </Form.Group>
-
-                            <Form.Group className="mb-3" controlId="formBasicPassword">
-                                <Form.Label>Password</Form.Label>
-                                <textarea cols="30" rows="10" style={{ width: "100%", border: "1px solid gray" }}></textarea>
+                            <Form.Group className="mb-3" controlId="formBasicEmail">
+                                <Form.Label>Coment</Form.Label>
+                                <Form.Control type="text" placeholder="write your coment" value={coment} onChange={(e) => setComent(e.target.value)} required />
                             </Form.Group>
-                            <Button variant="primary" style={{ width: "100%" }} type="submit">
+                            <Button variant="primary" style={{ width: "100%" }} onClick={postUsers}>
                                 Submit
                             </Button>
                         </Form>
@@ -54,7 +67,15 @@ export default function FooterB() {
                 <Row className='justify-content-center'>
                     <Col xs={6} className="mt-3">
                         <ListGroup>
-                            <ListGroup.Item><b>Name:</b>Bekhruz</ListGroup.Item>
+                            {getdata?.map((user) => {
+                                return (
+                                    <>
+                                        <ListGroup.Item><b>Name:</b>{user.name}</ListGroup.Item>
+                                        <ListGroup.Item><b>Coment:</b>{user.coment}</ListGroup.Item>
+                                        <button onClick={() => delete_func(user.data)}>delete</button>
+                                    </>
+                                )
+                            })}
                         </ListGroup>
 
                     </Col>
