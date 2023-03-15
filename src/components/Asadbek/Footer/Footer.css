@@ -37,7 +37,9 @@
 .box-of-icons {
     margin: 120px 0px 20px 500px;
 }
-
+#btnDelete{
+    margin:-50px 0px 0px 518px;
+}
 
 @media screen and (max-width:576px) {
     .form-control {
@@ -63,8 +65,10 @@
 
     #accordion {
         width: 360px;
-
     }
+
+
+
 
     .box-of-icons {
         margin: 30px 0px 0px 100px;
@@ -90,6 +94,12 @@
         padding: 10px;
     
     }
+    .accordion-item{
+        width: 350px;
+    }
+    .accordion-item-second{
+        width: 300px;
+    }
     
     .twitter-icon {
         width: 30px;
@@ -102,5 +112,9 @@
         width: 30px;
         height: 30px;
         padding: 10px;
+    }
+
+    #btnDelete{
+        margin: -50px 0px 0px 225px;
     }
 }

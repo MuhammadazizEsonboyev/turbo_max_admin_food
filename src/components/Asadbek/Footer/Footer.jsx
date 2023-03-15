@@ -1,6 +1,8 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Accordion, Button, Col, Container, Form, Row } from 'react-bootstrap'
+import IconButton from '@mui/material/IconButton';
+import DeleteIcon from '@mui/icons-material/Delete';
 import './Footer.css'
 
 export default function Footer() {
@@ -11,7 +13,7 @@ export default function Footer() {
     const postComments = () => {
         axios.post("https://my-json-server-production-a01a.up.railway.app/data", { name: postName, post: postComment })
             .then((res) => {
-                alert(res.statusText)
+                alert(res?.statusText)
             })
     }
 
@@ -20,6 +22,13 @@ export default function Footer() {
             .then((responsive) => {
                 setValue(responsive?.data)
             })
+    }
+
+
+    const deleteItem = (id) => {
+        axios.delete(`https:newrepository-production.up.railway.app/data/${id}`)
+        // .then((res) => alert(res.status))
+        setValue(value.filter((el) => el.id !== id))
     }
     useEffect(() => {
         getValues()
@@ -56,17 +65,18 @@ export default function Footer() {
                                     {
                                         value?.map((val) => {
                                             return (
-
-
-                                                <Accordion id='accordion'>
-                                                    <Accordion.Item eventKey="0">
+                                                <Accordion key={val.id} id='accordion'>
+                                                    <Accordion.Item className='accordion-item-second' eventKey="0">
                                                         <Accordion.Header id='names'>{val.name}</Accordion.Header>
                                                         <Accordion.Body id='comment-body'>
                                                             {val.post}
+                                                            <IconButton  id="btnDelete" aria-label="delete" onClick={() => deleteItem(val.id)} size="large">
+                                                                <DeleteIcon fontSize="inherit" />
+                                                            </IconButton>
                                                         </Accordion.Body>
                                                     </Accordion.Item>
-                                                </Accordion>
 
+                                                </Accordion>
 
                                             )
                                         })
