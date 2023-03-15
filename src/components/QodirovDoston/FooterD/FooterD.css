@@ -1,14 +1,21 @@
 .icons {
-    gap: 30px;
-    text-align: center;
+    gap: 330px;
+    display: flex;
+    margin: auto;
 }
 
 .copy{
-    margin-right: 90px;
-margin-top: 15px;
+margin-top: 65px;
 font-family: 'Heebo';
 font-size: 20px;
 color: #21243D;
+margin-left: 780px;
+gap: 40px;
+
+}
+.gap{
+margin-left: 740px;
+position: absolute;
 }
 
 
@@ -16,22 +23,25 @@ color: #21243D;
     .icons {
         text-align: center;
         font-size: 10px;
+        position: absolute;
+        margin-left: 140px;
     }
     #git {
         font-size: 20px;
     }
     .copy{
-    margin-left: -450px;
-    margin-top: 35px; 
+    margin-top: 65px; 
     display: flex;
+    margin-left: 20px;
+
 
     }
     .gap{
-        margin-left:-390px;
+        /* margin-left:-390px; */
         display: flex;
     }
 }
-/* @media screen and (max-width:576px){
+@media screen and (max-width:576px){
     .icons {
         text-align: center;
         font-size: 5px;
@@ -41,10 +51,9 @@ color: #21243D;
         margin-left: -50px;
     }
     .copy{
-        margin-right: -1px;
-    margin-top: 5px;
+        margin-right: -150px;
     }
     .gap{
         margin-left:130px;
     }
-} */
+}

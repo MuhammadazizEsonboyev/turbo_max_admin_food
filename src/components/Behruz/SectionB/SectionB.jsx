@@ -7,10 +7,10 @@ export default function () {
         <>
             <section className='bacbluu'>
                 <Container>
-                    <Row>
+                    <Row className='justify-content-center'>
                         <Col xs={6}>
                             <h5 className='pos'>Recent posts</h5>
-                            <Card className='gado' style={{ width: '450px' }}>
+                            <Card className='libisi' style={{ width: '450px', marginLeft: "10px", marginBottom: "30px" }}>
                                 <Card.Body>
                                     <Card.Title>Making a design system from<br></br>scratch</Card.Title>
                                         <br></br>
@@ -26,7 +26,7 @@ export default function () {
 
                         <Col xs={6}>
                             <h6 className='al'>View all</h6>
-                            <Card className='gado' style={{ width: '450px' }}>
+                            <Card className='libisi' style={{ width: '450px', marginLeft: "10px" }}>
                                 <Card.Body>
                                     <Card.Title>Making a design system from<br></br>scratch</Card.Title>
                                         <br></br>

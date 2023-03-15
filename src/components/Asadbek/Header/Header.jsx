@@ -12,7 +12,7 @@ export default function Header() {
         <div className='to-df'>
         <div className='box-place'>
 
-        <Col xs={5}>
+        <Col xs={12} lg={5} className='d-none d-sm-block'>
           <div className='post-box'>
             <div className='post-1'>
              <h3 className='intro'>Making a design system from scratch</h3>
@@ -26,9 +26,10 @@ export default function Header() {
           </div>
         </Col>
         </div>
+        
         <div className='post-2'>
 
-        <Col xs={5}>
+        <Col xs={12} lg={5} >
           <div className='post-box'>
             <div className='post-1'>
              <h3 className='intro'>Creating pixel perfect icons in Figma</h3>

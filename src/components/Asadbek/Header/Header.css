@@ -21,7 +21,6 @@
     font-size: 26px;
     color: #21243D;
     margin: 15px 0px 0px 0px;
-
 }
 
 .date-info {
@@ -58,19 +57,67 @@
     color: #21243D;
 }
 
-.box-place{
-  padding: 20px 40px 40px 145px;  
-}
-.recent{
-  padding: 10px 20px 0px 140px;  
-  font-weight: 400;
-  font-size: 22px;
+.box-place {
+    padding: 20px 40px 40px 145px;
 }
 
-.to-df{
+.recent {
+    padding: 10px 20px 0px 140px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.to-df {
     display: flex;
 }
 
-.post-2{
+.post-2 {
     padding: 20px;
+}
+
+@media screen and (max-width:576px) {
+    .box-place {
+        margin: -42px -20px 0px 12px;
+    }
+
+    .recent {
+        padding: 10px 100px 0px 50px;
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .post-box {
+        width: 360px;
+        height: 300px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+    }
+
+    .to-df {
+        display: block;
+
+    }
+
+    .post-2 {
+        padding: 4px;
+    }
+
+    .intro {
+        font-weight: 700;
+        font-size: 22px;
+        color: #21243D;
+        margin: 15px 0px 0px 0px;
+    }
+    .mini-info {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #21243D;
+    }
+
+    .post-1 {
+        color: #21243D;
+        padding: 10px 10px 0px 35px;
+    }
 }

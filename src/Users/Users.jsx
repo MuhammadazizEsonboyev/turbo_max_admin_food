@@ -15,6 +15,9 @@ export default function Users() {
             <Link to="/behruz-axi">
                 <Button variant="success">Behruz</Button>
             </Link>
+            <Link to="/samandar">
+                <Button variant="success">samandar</Button>
+            </Link>
             <Link to="/xurshid-sila">
                 <Button variant="success">Xurshid</Button>
             </Link>
