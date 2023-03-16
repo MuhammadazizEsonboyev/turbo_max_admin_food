@@ -9,7 +9,7 @@ export default function Users() {
             <Link to="/asadbek">
                 <Button variant="success">Asadbek</Button>
             </Link>
-            <Link to="/doston-sila">
+            <Link to="https://6412e3f5a5d3a3000824d010--mellow-arithmetic-063e7a.netlify.app/">
                 <Button variant="success">Doston</Button>
             </Link>
             <Link to="/behruz-axi">
@@ -18,7 +18,7 @@ export default function Users() {
             <Link to="/samandar">
                 <Button variant="success">samandar</Button>
             </Link>
-            <Link to="/xurshid-sila">
+            <Link to="https://xurshid-figma.netlify.app/">
                 <Button variant="success">Xurshid</Button>
             </Link>
             <Link to="/bobur">
