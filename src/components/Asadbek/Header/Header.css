@@ -1,4 +1,9 @@
-.back-color {
+*{
+    margin: 0;
+    padding: 0;
+} 
+ 
+ .back-color {
     background: #EDF7FA;
     margin-top: 70px;
 }
